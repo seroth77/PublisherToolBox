@@ -30,6 +30,13 @@ export default function ContentGrid({ items = [] }) {
   }, [items])
 
   const filtered = useMemo(() => {
+    console.log('Filtering grid items:', {
+      total: items.length,
+      searchQuery: search,
+      selectedPlatforms,
+      selectedCountries,
+      paidContentFilter
+    })
     const q = search.trim().toLowerCase()
     return items.filter(it => {
       if (q) {
@@ -67,8 +74,8 @@ export default function ContentGrid({ items = [] }) {
   const sorted = useMemo(() => {
     const out = [...filtered]
     switch (sortOption) {
-      case 'nameAsc': out.sort((a,b) => normalize(a['What is your name?']).localeCompare(normalize(b['What is your name?']))); break
-      case 'nameDesc': out.sort((a,b) => normalize(b['What is your name?']).localeCompare(normalize(a['What is your name?']))); break
+      case 'nameAsc': out.sort((a,b) => normalize(a['What is the name of your channel?']).localeCompare(normalize(b['What is the name of your channel?']))); break
+      case 'nameDesc': out.sort((a,b) => normalize(b['What is the name of your channel?']).localeCompare(normalize(a['What is the name of your channel?']))); break
       case 'country': out.sort((a,b) => normalize(a['What country are located in?']).localeCompare(normalize(b['What country are located in?']))); break
       case 'platformCount': out.sort((a,b) => {
         const pa = normalize(a['What platform is your channel on?']).split(';').filter(Boolean).length
@@ -83,6 +90,13 @@ export default function ContentGrid({ items = [] }) {
   function togglePlatform(p) { setSelectedPlatforms(prev => prev.includes(p) ? prev.filter(x => x !== p) : [...prev, p]) }
   function toggleCountry(c) { setSelectedCountries(prev => prev.includes(c) ? prev.filter(x => x !== c) : [...prev, c]) }
   function clearFilters() { setSearch(''); setSelectedPlatforms([]); setSelectedCountries([]); setPaidContentFilter('all'); setSortOption('nameAsc') }
+
+  function slugify(s) {
+    return String(s || '')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/(^-|-$)/g, '')
+  }
 
   return (
     <div className="content-grid-root">
@@ -105,9 +119,13 @@ export default function ContentGrid({ items = [] }) {
       />
 
       <div className="content-grid">
-        {sorted.map((it, idx) => (
-          <ContentCard key={idx} data={it} />
-        ))}
+        {sorted.map((it, idx) => {
+          // Build a stable unique key: slug(channelName) - timestamp - index
+          const channelName = it['What is the name of your channel?'] || it['What is your name?'] || ''
+          const ts = it.Timestamp || ''
+          const key = `${slugify(channelName)}-${slugify(ts)}-${idx}`
+          return <ContentCard key={key} data={it} />
+        })}
         {sorted.length === 0 && <div className="no-results">No creators match the selected filters.</div>}
       </div>
     </div>

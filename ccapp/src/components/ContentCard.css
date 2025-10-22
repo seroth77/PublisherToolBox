@@ -17,6 +17,10 @@
 .content-card-header {
   border-bottom: 1px solid #eee;
   padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 }
 
 .content-card-header h3 {
@@ -35,9 +39,71 @@
   gap: 8px;
 }
 
+.header-channel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.header-channel-title {
+  margin: 0;
+  font-size: 1.05rem;
+  color: #2c3e50;
+}
+
+.location {
+  white-space: nowrap;
+  color: #7f8c8d;
+  font-size: 0.9em;
+}
+
+.location-flag {
+  font-size: 1.25rem; /* larger for emoji clarity */
+  line-height: 1;
+  display: inline-block;
+  padding: 4px 6px;
+  border-radius: 6px;
+  background: transparent;
+  cursor: default;
+}
+
+.location-flag:hover {
+  background: rgba(0,0,0,0.03);
+}
+
 .content-card-channel h4 {
   margin: 0;
   color: #34495e;
+}
+
+.channel-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.channel-logo-img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo-placeholder {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #f0f2f4;
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+.logo-placeholder.loading {
+  opacity: 0.7;
 }
 
 .content-card-channel a {
@@ -93,4 +159,26 @@
   padding-top: 8px;
   border-top: 1px solid #eee;
   font-size: 0.9em;
+}
+
+/* Polished header/channel behavior */
+.header-channel-title {
+  max-width: 60vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (min-width: 720px) {
+  .header-channel-title {
+    max-width: 40vw;
+  }
+}
+
+.content-card {
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.content-card:hover {
+  transform: translateY(-3px);
 }
