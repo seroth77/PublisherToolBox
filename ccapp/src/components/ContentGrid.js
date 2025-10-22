@@ -1,0 +1,115 @@
+import React, { useMemo, useState } from 'react'
+import './ContentGrid.css'
+import ContentCard from './ContentCard'
+import FilterControls from './FilterControls'
+
+const normalize = (s) => (s === undefined || s === null ? '' : String(s))
+
+export default function ContentGrid({ items = [] }) {
+  const [search, setSearch] = useState('')
+  const [selectedPlatforms, setSelectedPlatforms] = useState([])
+  const [selectedCountries, setSelectedCountries] = useState([])
+  const [paidContentFilter, setPaidContentFilter] = useState('all')
+  const [sortOption, setSortOption] = useState('nameAsc')
+
+  const platforms = useMemo(() => {
+    const s = new Set()
+    items.forEach(it => {
+      normalize(it['What platform is your channel on?']).split(';').forEach(p => { const t = p.trim(); if (t) s.add(t) })
+    })
+    return Array.from(s).sort()
+  }, [items])
+
+  const countries = useMemo(() => {
+    const s = new Set()
+    items.forEach(it => {
+      const c = normalize(it['What country are located in?']).trim()
+      if (c) s.add(c)
+    })
+    return Array.from(s).sort()
+  }, [items])
+
+  const filtered = useMemo(() => {
+    const q = search.trim().toLowerCase()
+    return items.filter(it => {
+      if (q) {
+        const hay = (
+          normalize(it['What is your name?']) + ' ' +
+          normalize(it['What is the name of your channel?']) + ' ' +
+          normalize(it['What are your top 10 favorite games?']) + ' ' +
+          normalize(it['What type of content do you prefer to cover?'])
+        ).toLowerCase()
+        if (!hay.includes(q)) return false
+      }
+
+      if (selectedPlatforms.length) {
+        const raw = normalize(it['What platform is your channel on?']).toLowerCase()
+        const has = selectedPlatforms.every(sp => raw.includes(sp.toLowerCase()))
+        if (!has) return false
+      }
+
+      if (selectedCountries.length) {
+        const c = normalize(it['What country are located in?']).toLowerCase()
+        const ok = selectedCountries.some(sc => sc.toLowerCase() === c)
+        if (!ok) return false
+      }
+
+      if (paidContentFilter === 'free') {
+        if (normalize(it['Do you charge for content?']).toLowerCase().includes('yes')) return false
+      } else if (paidContentFilter === 'paid') {
+        if (!normalize(it['Do you charge for content?']).toLowerCase().includes('yes')) return false
+      }
+
+      return true
+    })
+  }, [items, search, selectedPlatforms, selectedCountries, paidContentFilter])
+
+  const sorted = useMemo(() => {
+    const out = [...filtered]
+    switch (sortOption) {
+      case 'nameAsc': out.sort((a,b) => normalize(a['What is your name?']).localeCompare(normalize(b['What is your name?']))); break
+      case 'nameDesc': out.sort((a,b) => normalize(b['What is your name?']).localeCompare(normalize(a['What is your name?']))); break
+      case 'country': out.sort((a,b) => normalize(a['What country are located in?']).localeCompare(normalize(b['What country are located in?']))); break
+      case 'platformCount': out.sort((a,b) => {
+        const pa = normalize(a['What platform is your channel on?']).split(';').filter(Boolean).length
+        const pb = normalize(b['What platform is your channel on?']).split(';').filter(Boolean).length
+        return pb - pa
+      }); break
+      default: break
+    }
+    return out
+  }, [filtered, sortOption])
+
+  function togglePlatform(p) { setSelectedPlatforms(prev => prev.includes(p) ? prev.filter(x => x !== p) : [...prev, p]) }
+  function toggleCountry(c) { setSelectedCountries(prev => prev.includes(c) ? prev.filter(x => x !== c) : [...prev, c]) }
+  function clearFilters() { setSearch(''); setSelectedPlatforms([]); setSelectedCountries([]); setPaidContentFilter('all'); setSortOption('nameAsc') }
+
+  return (
+    <div className="content-grid-root">
+      <FilterControls
+        search={search}
+        onSearchChange={setSearch}
+        platforms={platforms}
+        countries={countries}
+        selectedPlatforms={selectedPlatforms}
+        selectedCountries={selectedCountries}
+        paidContentFilter={paidContentFilter}
+        sortOption={sortOption}
+        onPlatformToggle={togglePlatform}
+        onCountryToggle={toggleCountry}
+        onPaidContentChange={setPaidContentFilter}
+        onSortChange={setSortOption}
+        onClearFilters={clearFilters}
+        totalResults={items.length}
+        filteredCount={sorted.length}
+      />
+
+      <div className="content-grid">
+        {sorted.map((it, idx) => (
+          <ContentCard key={idx} data={it} />
+        ))}
+        {sorted.length === 0 && <div className="no-results">No creators match the selected filters.</div>}
+      </div>
+    </div>
+  )
+}
