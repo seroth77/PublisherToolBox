@@ -3,6 +3,16 @@ import './ContentCard.css';
 import { extractChannelIdFromUrl, fetchChannelLogo, resolveHandleOrQuery } from '../utils/channel';
 import { flagForCountryName } from '../utils/flags';
 
+// Format subscriber count to readable format (e.g., 1.2K, 3.4M)
+function formatSubscriberCount(count) {
+  if (count >= 1000000) {
+    return (count / 1000000).toFixed(1) + 'M';
+  } else if (count >= 1000) {
+    return (count / 1000).toFixed(1) + 'K';
+  }
+  return count.toString();
+}
+
 export default function ContentCard({ data }) {
   const [channelInfo, setChannelInfo] = useState(null);
   const [loadingLogo, setLoadingLogo] = useState(false);
@@ -19,6 +29,12 @@ export default function ContentCard({ data }) {
 
     async function load() {
       const link = channelData.link;
+      
+      // Only make YouTube API calls if the link contains "youtube"
+      if (!link.toLowerCase().includes('youtube')) {
+        return;
+      }
+
       let channelId = extractChannelIdFromUrl(link) || extractChannelIdFromUrl(channelData.name);
 
       try {
@@ -30,7 +46,7 @@ export default function ContentCard({ data }) {
           const resolved = await resolveHandleOrQuery(handle);
           if (resolved && resolved.channelId) channelId = resolved.channelId;
           else if (resolved && resolved.logo && mounted) {
-            setChannelInfo({ logo: resolved.logo, title: resolved.title });
+            setChannelInfo({ logo: resolved.logo, title: resolved.title, subscriberCount: resolved.subscriberCount });
             return;
           }
         }
@@ -86,7 +102,19 @@ export default function ContentCard({ data }) {
       </div>
 
       <div className="content-card-channel">
-        <h4 className="channel-title">{data['What is your name?']}</h4>
+        <div className="creator-name-row">
+          <h4 className="channel-title">{data['What is your name?']}</h4>
+          {channelInfo && channelInfo.subscriberCount && !channelInfo.hiddenSubscriberCount && (
+            <span className="subscriber-count" title={`${channelInfo.subscriberCount.toLocaleString()} subscribers`}>
+              {formatSubscriberCount(channelInfo.subscriberCount)} subs
+            </span>
+          )}
+          {channelInfo && channelInfo.hiddenSubscriberCount && (
+            <span className="subscriber-count hidden" title="Subscriber count hidden by channel owner">
+              Hidden
+            </span>
+          )}
+        </div>
         <a href={data['What is the link to your channel(s)? (If you have multiple channels, add them all using commas to separate them.)']?.split(',')[0]} target="_blank" rel="noopener noreferrer">
           Visit Channel
         </a>

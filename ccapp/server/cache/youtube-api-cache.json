@@ -1,0 +1,1146 @@
+{
+  "query:gladdest_dice": {
+    "ts": 1761320847731,
+    "value": {
+      "channelId": "UC4Zw1WmmfgrSc8Xe0N3yvbg",
+      "title": "Gladdest Dice and the Pips",
+      "logo": "https://yt3.ggpht.com/ozAPP9V6AJtSEzcHKRNCDTvtovj5H3xV__lNM4Pxqr-2nmylbWB7RoDn7mE7q6V1tEcjyXnHFQ=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "DDyMIn9Q_oowQ0u-E0XKVNAVhWU",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "TAPid42DPWx3h1Z6y30Kf85EDIg",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UC4Zw1WmmfgrSc8Xe0N3yvbg"
+            },
+            "snippet": {
+              "publishedAt": "2022-11-10T00:13:17Z",
+              "channelId": "UC4Zw1WmmfgrSc8Xe0N3yvbg",
+              "title": "Gladdest Dice and the Pips",
+              "description": "Boardgaming and related news. Live streams, videos, and shorts to share our passion for gaming.",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ozAPP9V6AJtSEzcHKRNCDTvtovj5H3xV__lNM4Pxqr-2nmylbWB7RoDn7mE7q6V1tEcjyXnHFQ=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ozAPP9V6AJtSEzcHKRNCDTvtovj5H3xV__lNM4Pxqr-2nmylbWB7RoDn7mE7q6V1tEcjyXnHFQ=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ozAPP9V6AJtSEzcHKRNCDTvtovj5H3xV__lNM4Pxqr-2nmylbWB7RoDn7mE7q6V1tEcjyXnHFQ=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Gladdest Dice and the Pips",
+              "liveBroadcastContent": "none",
+              "publishTime": "2022-11-10T00:13:17Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:dicepunkguru": {
+    "ts": 1761320847743,
+    "value": {
+      "channelId": "UC-yILMFLuQi3Rta-1t8Fqeg",
+      "title": "DicePunk Guru",
+      "logo": "https://yt3.ggpht.com/c72ooe3dvu6uAXJiZOr5YRSv5wEWtfSPWxXr0BKw1x3ietaqV0FSNGc92caDgsJAtJ8PTVQ9Dho=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "g2G3ABiwYwMfSRe9R-QC_UBTQvo",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "L4NlBF35icSBKJlR7Ta7_S1cvG4",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UC-yILMFLuQi3Rta-1t8Fqeg"
+            },
+            "snippet": {
+              "publishedAt": "2016-08-10T19:29:10Z",
+              "channelId": "UC-yILMFLuQi3Rta-1t8Fqeg",
+              "title": "DicePunk Guru",
+              "description": "Welcome, my enlightened hobby seekers! ✨ I'm your slightly unqualified Guru of Glue & Dice, guiding you down the questionable ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/c72ooe3dvu6uAXJiZOr5YRSv5wEWtfSPWxXr0BKw1x3ietaqV0FSNGc92caDgsJAtJ8PTVQ9Dho=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/c72ooe3dvu6uAXJiZOr5YRSv5wEWtfSPWxXr0BKw1x3ietaqV0FSNGc92caDgsJAtJ8PTVQ9Dho=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/c72ooe3dvu6uAXJiZOr5YRSv5wEWtfSPWxXr0BKw1x3ietaqV0FSNGc92caDgsJAtJ8PTVQ9Dho=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "DicePunk Guru",
+              "liveBroadcastContent": "none",
+              "publishTime": "2016-08-10T19:29:10Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:beercityboardgames": {
+    "ts": 1761320847753,
+    "value": {
+      "channelId": "UC2GxGli5J2P9RiffOXWEz7w",
+      "title": "Beer City Board Games",
+      "logo": "https://yt3.ggpht.com/FZKR7jxqa_PS1r7KTtCq3_005xbvQLtjwZDqhTuGy0RHoxf0bfNehu_gZxwoioySv0S2alZ1=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "iGw4EoaN35mGIOvx3HNBWRPkm5A",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "sFw-EDnm8aCbcssqVE3aWJtGEL8",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UC2GxGli5J2P9RiffOXWEz7w"
+            },
+            "snippet": {
+              "publishedAt": "2020-05-25T19:33:41Z",
+              "channelId": "UC2GxGli5J2P9RiffOXWEz7w",
+              "title": "Beer City Board Games",
+              "description": "Beer City Board Games: Brewed for Fun, Best Served Strategically. Welcome to Beer City Board Games, a community-focused ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/FZKR7jxqa_PS1r7KTtCq3_005xbvQLtjwZDqhTuGy0RHoxf0bfNehu_gZxwoioySv0S2alZ1=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/FZKR7jxqa_PS1r7KTtCq3_005xbvQLtjwZDqhTuGy0RHoxf0bfNehu_gZxwoioySv0S2alZ1=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/FZKR7jxqa_PS1r7KTtCq3_005xbvQLtjwZDqhTuGy0RHoxf0bfNehu_gZxwoioySv0S2alZ1=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Beer City Board Games",
+              "liveBroadcastContent": "none",
+              "publishTime": "2020-05-25T19:33:41Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "dicepunkguru": {
+    "ts": 1761320847802,
+    "value": {
+      "logo": "https://yt3.ggpht.com/c72ooe3dvu6uAXJiZOr5YRSv5wEWtfSPWxXr0BKw1x3ietaqV0FSNGc92caDgsJAtJ8PTVQ9Dho=s88-c-k-c0x00ffffff-no-rj",
+      "title": "DicePunk Guru",
+      "subscriberCount": 283,
+      "hiddenSubscriberCount": false,
+      "viewCount": 131542,
+      "videoCount": 77,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "DWgrIH2MsLpY7ymV5n6chB5WduA",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "u5dds1LbDGbdEz-rOmpiNUSwno4",
+            "id": "UC-yILMFLuQi3Rta-1t8Fqeg",
+            "snippet": {
+              "title": "DicePunk Guru",
+              "description": "Welcome, my enlightened hobby seekers! ✨\n\nI’m your slightly unqualified Guru of Glue & Dice, guiding you down the questionable path of miniature painting, board game reviews, and occasional bad advice.\n\nHere, we worship the holy trinity of hobbies:\n🎲 Rolling dice\n🖌️ Painting minis\n💀 Ruining paint jobs and pretending it’s “weathering”\n\nExpect speed paints, fun reviews, honest takes, and the occasional miniature meltdown. Whether you’re a brush-wielding monk or a dice-chucking chaos gremlin, you’ve found your temple.\n\n🧘‍♂️ Subscribe for enlightenment… or at least entertainment.",
+              "customUrl": "@dicepunkguru",
+              "publishedAt": "2016-08-10T19:29:10Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/c72ooe3dvu6uAXJiZOr5YRSv5wEWtfSPWxXr0BKw1x3ietaqV0FSNGc92caDgsJAtJ8PTVQ9Dho=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/c72ooe3dvu6uAXJiZOr5YRSv5wEWtfSPWxXr0BKw1x3ietaqV0FSNGc92caDgsJAtJ8PTVQ9Dho=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/c72ooe3dvu6uAXJiZOr5YRSv5wEWtfSPWxXr0BKw1x3ietaqV0FSNGc92caDgsJAtJ8PTVQ9Dho=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "DicePunk Guru",
+                "description": "Welcome, my enlightened hobby seekers! ✨\n\nI’m your slightly unqualified Guru of Glue & Dice, guiding you down the questionable path of miniature painting, board game reviews, and occasional bad advice.\n\nHere, we worship the holy trinity of hobbies:\n🎲 Rolling dice\n🖌️ Painting minis\n💀 Ruining paint jobs and pretending it’s “weathering”\n\nExpect speed paints, fun reviews, honest takes, and the occasional miniature meltdown. Whether you’re a brush-wielding monk or a dice-chucking chaos gremlin, you’ve found your temple.\n\n🧘‍♂️ Subscribe for enlightenment… or at least entertainment."
+              },
+              "country": "US"
+            },
+            "statistics": {
+              "viewCount": "131542",
+              "subscriberCount": "283",
+              "hiddenSubscriberCount": false,
+              "videoCount": "77"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UC-yILMFLuQi3Rta-1t8Fqeg": {
+    "ts": 1761320847802,
+    "value": {
+      "logo": "https://yt3.ggpht.com/c72ooe3dvu6uAXJiZOr5YRSv5wEWtfSPWxXr0BKw1x3ietaqV0FSNGc92caDgsJAtJ8PTVQ9Dho=s88-c-k-c0x00ffffff-no-rj",
+      "title": "DicePunk Guru",
+      "subscriberCount": 283,
+      "hiddenSubscriberCount": false,
+      "viewCount": 131542,
+      "videoCount": 77,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "DWgrIH2MsLpY7ymV5n6chB5WduA",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "u5dds1LbDGbdEz-rOmpiNUSwno4",
+            "id": "UC-yILMFLuQi3Rta-1t8Fqeg",
+            "snippet": {
+              "title": "DicePunk Guru",
+              "description": "Welcome, my enlightened hobby seekers! ✨\n\nI’m your slightly unqualified Guru of Glue & Dice, guiding you down the questionable path of miniature painting, board game reviews, and occasional bad advice.\n\nHere, we worship the holy trinity of hobbies:\n🎲 Rolling dice\n🖌️ Painting minis\n💀 Ruining paint jobs and pretending it’s “weathering”\n\nExpect speed paints, fun reviews, honest takes, and the occasional miniature meltdown. Whether you’re a brush-wielding monk or a dice-chucking chaos gremlin, you’ve found your temple.\n\n🧘‍♂️ Subscribe for enlightenment… or at least entertainment.",
+              "customUrl": "@dicepunkguru",
+              "publishedAt": "2016-08-10T19:29:10Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/c72ooe3dvu6uAXJiZOr5YRSv5wEWtfSPWxXr0BKw1x3ietaqV0FSNGc92caDgsJAtJ8PTVQ9Dho=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/c72ooe3dvu6uAXJiZOr5YRSv5wEWtfSPWxXr0BKw1x3ietaqV0FSNGc92caDgsJAtJ8PTVQ9Dho=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/c72ooe3dvu6uAXJiZOr5YRSv5wEWtfSPWxXr0BKw1x3ietaqV0FSNGc92caDgsJAtJ8PTVQ9Dho=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "DicePunk Guru",
+                "description": "Welcome, my enlightened hobby seekers! ✨\n\nI’m your slightly unqualified Guru of Glue & Dice, guiding you down the questionable path of miniature painting, board game reviews, and occasional bad advice.\n\nHere, we worship the holy trinity of hobbies:\n🎲 Rolling dice\n🖌️ Painting minis\n💀 Ruining paint jobs and pretending it’s “weathering”\n\nExpect speed paints, fun reviews, honest takes, and the occasional miniature meltdown. Whether you’re a brush-wielding monk or a dice-chucking chaos gremlin, you’ve found your temple.\n\n🧘‍♂️ Subscribe for enlightenment… or at least entertainment."
+              },
+              "country": "US"
+            },
+            "statistics": {
+              "viewCount": "131542",
+              "subscriberCount": "283",
+              "hiddenSubscriberCount": false,
+              "videoCount": "77"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "gladdest_dice": {
+    "ts": 1761320847805,
+    "value": {
+      "logo": "https://yt3.ggpht.com/ozAPP9V6AJtSEzcHKRNCDTvtovj5H3xV__lNM4Pxqr-2nmylbWB7RoDn7mE7q6V1tEcjyXnHFQ=s88-c-k-c0x00ffffff-no-rj",
+      "title": "Gladdest Dice and the Pips",
+      "subscriberCount": 90,
+      "hiddenSubscriberCount": false,
+      "viewCount": 11453,
+      "videoCount": 37,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "nvDjdliT_aWAG8q5gxRh83OT1ho",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "3b8Rr2BdSFFRgCbE-9uKAWJWE1s",
+            "id": "UC4Zw1WmmfgrSc8Xe0N3yvbg",
+            "snippet": {
+              "title": "Gladdest Dice and the Pips",
+              "description": "Boardgaming and related news.  Live streams, videos, and shorts to share our passion for gaming.",
+              "customUrl": "@gladdest_dice",
+              "publishedAt": "2022-11-10T00:13:17.161222Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ozAPP9V6AJtSEzcHKRNCDTvtovj5H3xV__lNM4Pxqr-2nmylbWB7RoDn7mE7q6V1tEcjyXnHFQ=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ozAPP9V6AJtSEzcHKRNCDTvtovj5H3xV__lNM4Pxqr-2nmylbWB7RoDn7mE7q6V1tEcjyXnHFQ=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ozAPP9V6AJtSEzcHKRNCDTvtovj5H3xV__lNM4Pxqr-2nmylbWB7RoDn7mE7q6V1tEcjyXnHFQ=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "Gladdest Dice and the Pips",
+                "description": "Boardgaming and related news.  Live streams, videos, and shorts to share our passion for gaming."
+              },
+              "country": "US"
+            },
+            "statistics": {
+              "viewCount": "11453",
+              "subscriberCount": "90",
+              "hiddenSubscriberCount": false,
+              "videoCount": "37"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UC4Zw1WmmfgrSc8Xe0N3yvbg": {
+    "ts": 1761320847805,
+    "value": {
+      "logo": "https://yt3.ggpht.com/ozAPP9V6AJtSEzcHKRNCDTvtovj5H3xV__lNM4Pxqr-2nmylbWB7RoDn7mE7q6V1tEcjyXnHFQ=s88-c-k-c0x00ffffff-no-rj",
+      "title": "Gladdest Dice and the Pips",
+      "subscriberCount": 90,
+      "hiddenSubscriberCount": false,
+      "viewCount": 11453,
+      "videoCount": 37,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "nvDjdliT_aWAG8q5gxRh83OT1ho",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "3b8Rr2BdSFFRgCbE-9uKAWJWE1s",
+            "id": "UC4Zw1WmmfgrSc8Xe0N3yvbg",
+            "snippet": {
+              "title": "Gladdest Dice and the Pips",
+              "description": "Boardgaming and related news.  Live streams, videos, and shorts to share our passion for gaming.",
+              "customUrl": "@gladdest_dice",
+              "publishedAt": "2022-11-10T00:13:17.161222Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ozAPP9V6AJtSEzcHKRNCDTvtovj5H3xV__lNM4Pxqr-2nmylbWB7RoDn7mE7q6V1tEcjyXnHFQ=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ozAPP9V6AJtSEzcHKRNCDTvtovj5H3xV__lNM4Pxqr-2nmylbWB7RoDn7mE7q6V1tEcjyXnHFQ=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ozAPP9V6AJtSEzcHKRNCDTvtovj5H3xV__lNM4Pxqr-2nmylbWB7RoDn7mE7q6V1tEcjyXnHFQ=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "Gladdest Dice and the Pips",
+                "description": "Boardgaming and related news.  Live streams, videos, and shorts to share our passion for gaming."
+              },
+              "country": "US"
+            },
+            "statistics": {
+              "viewCount": "11453",
+              "subscriberCount": "90",
+              "hiddenSubscriberCount": false,
+              "videoCount": "37"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "beercityboardgames": {
+    "ts": 1761320847876,
+    "value": {
+      "logo": "https://yt3.ggpht.com/FZKR7jxqa_PS1r7KTtCq3_005xbvQLtjwZDqhTuGy0RHoxf0bfNehu_gZxwoioySv0S2alZ1=s88-c-k-c0x00ffffff-no-rj",
+      "title": "Beer City Board Games",
+      "subscriberCount": 929,
+      "hiddenSubscriberCount": false,
+      "viewCount": 84916,
+      "videoCount": 202,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "4jTriC6ssqt61DV_VmqbDo_D0Oc",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "ccvWoESKH7gc6FAqRLZaNFJLIvo",
+            "id": "UC2GxGli5J2P9RiffOXWEz7w",
+            "snippet": {
+              "title": "Beer City Board Games",
+              "description": "Beer City Board Games: Brewed for Fun, Best Served Strategically.\n\nWelcome to Beer City Board Games, a community-focused channel where we celebrate all things board gaming. From classic favorites to modern masterpieces, we explore the world of tabletop games and share our love for this hobby.\n\nAt the heart of our channel is a commitment to making board gaming accessible to everyone. We believe that anyone can enjoy board games, regardless of their experience level, age, or background. Whether you're a seasoned veteran or a newcomer to the hobby, we hope you feel welcome here.\n\nSo if you're looking for a channel that's all about celebrating the joys of board gaming and building connections with others, subscribe to our channel today. And don't forget to follow us on Instagram and Facebook for even more board game content and community!",
+              "customUrl": "@beercityboardgames",
+              "publishedAt": "2020-05-25T19:33:41.639293Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/FZKR7jxqa_PS1r7KTtCq3_005xbvQLtjwZDqhTuGy0RHoxf0bfNehu_gZxwoioySv0S2alZ1=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/FZKR7jxqa_PS1r7KTtCq3_005xbvQLtjwZDqhTuGy0RHoxf0bfNehu_gZxwoioySv0S2alZ1=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/FZKR7jxqa_PS1r7KTtCq3_005xbvQLtjwZDqhTuGy0RHoxf0bfNehu_gZxwoioySv0S2alZ1=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "Beer City Board Games",
+                "description": "Beer City Board Games: Brewed for Fun, Best Served Strategically.\n\nWelcome to Beer City Board Games, a community-focused channel where we celebrate all things board gaming. From classic favorites to modern masterpieces, we explore the world of tabletop games and share our love for this hobby.\n\nAt the heart of our channel is a commitment to making board gaming accessible to everyone. We believe that anyone can enjoy board games, regardless of their experience level, age, or background. Whether you're a seasoned veteran or a newcomer to the hobby, we hope you feel welcome here.\n\nSo if you're looking for a channel that's all about celebrating the joys of board gaming and building connections with others, subscribe to our channel today. And don't forget to follow us on Instagram and Facebook for even more board game content and community!"
+              },
+              "country": "US"
+            },
+            "statistics": {
+              "viewCount": "84916",
+              "subscriberCount": "929",
+              "hiddenSubscriberCount": false,
+              "videoCount": "202"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UC2GxGli5J2P9RiffOXWEz7w": {
+    "ts": 1761320847876,
+    "value": {
+      "logo": "https://yt3.ggpht.com/FZKR7jxqa_PS1r7KTtCq3_005xbvQLtjwZDqhTuGy0RHoxf0bfNehu_gZxwoioySv0S2alZ1=s88-c-k-c0x00ffffff-no-rj",
+      "title": "Beer City Board Games",
+      "subscriberCount": 929,
+      "hiddenSubscriberCount": false,
+      "viewCount": 84916,
+      "videoCount": 202,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "4jTriC6ssqt61DV_VmqbDo_D0Oc",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "ccvWoESKH7gc6FAqRLZaNFJLIvo",
+            "id": "UC2GxGli5J2P9RiffOXWEz7w",
+            "snippet": {
+              "title": "Beer City Board Games",
+              "description": "Beer City Board Games: Brewed for Fun, Best Served Strategically.\n\nWelcome to Beer City Board Games, a community-focused channel where we celebrate all things board gaming. From classic favorites to modern masterpieces, we explore the world of tabletop games and share our love for this hobby.\n\nAt the heart of our channel is a commitment to making board gaming accessible to everyone. We believe that anyone can enjoy board games, regardless of their experience level, age, or background. Whether you're a seasoned veteran or a newcomer to the hobby, we hope you feel welcome here.\n\nSo if you're looking for a channel that's all about celebrating the joys of board gaming and building connections with others, subscribe to our channel today. And don't forget to follow us on Instagram and Facebook for even more board game content and community!",
+              "customUrl": "@beercityboardgames",
+              "publishedAt": "2020-05-25T19:33:41.639293Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/FZKR7jxqa_PS1r7KTtCq3_005xbvQLtjwZDqhTuGy0RHoxf0bfNehu_gZxwoioySv0S2alZ1=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/FZKR7jxqa_PS1r7KTtCq3_005xbvQLtjwZDqhTuGy0RHoxf0bfNehu_gZxwoioySv0S2alZ1=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/FZKR7jxqa_PS1r7KTtCq3_005xbvQLtjwZDqhTuGy0RHoxf0bfNehu_gZxwoioySv0S2alZ1=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "Beer City Board Games",
+                "description": "Beer City Board Games: Brewed for Fun, Best Served Strategically.\n\nWelcome to Beer City Board Games, a community-focused channel where we celebrate all things board gaming. From classic favorites to modern masterpieces, we explore the world of tabletop games and share our love for this hobby.\n\nAt the heart of our channel is a commitment to making board gaming accessible to everyone. We believe that anyone can enjoy board games, regardless of their experience level, age, or background. Whether you're a seasoned veteran or a newcomer to the hobby, we hope you feel welcome here.\n\nSo if you're looking for a channel that's all about celebrating the joys of board gaming and building connections with others, subscribe to our channel today. And don't forget to follow us on Instagram and Facebook for even more board game content and community!"
+              },
+              "country": "US"
+            },
+            "statistics": {
+              "viewCount": "84916",
+              "subscriberCount": "929",
+              "hiddenSubscriberCount": false,
+              "videoCount": "202"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:tabletoptastings": {
+    "ts": 1761320847943,
+    "value": {
+      "channelId": "UCT6hMjSQ9DQTIm507BDQYZA",
+      "title": "Tabletop Tastings",
+      "logo": "https://yt3.ggpht.com/n-UepIqLIQdvV0oGEUzjXnP8F-cKoS37j6fy9KTl_rSGDlzdXND2lcPXxtLCtWA5BAK-TNEB=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "VF8KIeYoTedbqJvsuzuODevMfDo",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 5,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "-WiIKTQgrXMnios-DVfvpXmVll0",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCT6hMjSQ9DQTIm507BDQYZA"
+            },
+            "snippet": {
+              "publishedAt": "2023-09-19T23:29:25Z",
+              "channelId": "UCT6hMjSQ9DQTIm507BDQYZA",
+              "title": "Tabletop Tastings",
+              "description": "Tabletop Tastings is the perfect pairing of board games and whisky! Once a month we reveal a new board game, do a full teach ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/n-UepIqLIQdvV0oGEUzjXnP8F-cKoS37j6fy9KTl_rSGDlzdXND2lcPXxtLCtWA5BAK-TNEB=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/n-UepIqLIQdvV0oGEUzjXnP8F-cKoS37j6fy9KTl_rSGDlzdXND2lcPXxtLCtWA5BAK-TNEB=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/n-UepIqLIQdvV0oGEUzjXnP8F-cKoS37j6fy9KTl_rSGDlzdXND2lcPXxtLCtWA5BAK-TNEB=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Tabletop Tastings",
+              "liveBroadcastContent": "none",
+              "publishTime": "2023-09-19T23:29:25Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:tubbsplaysgames": {
+    "ts": 1761320847969,
+    "value": {
+      "channelId": "UC1ACyBSefsR2kSay4Gp7Rsg",
+      "title": "Ryan McGillen",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_lhK4WrDILYVD7ImqQ5Avl6mvlAuUa9hio47IJBeNVygrY=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "1tIDJr4kx64I4rkrFEjilkT0WCU",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "jLdtlWtcf9DAuCcxeSudIzDZ-8g",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UC1ACyBSefsR2kSay4Gp7Rsg"
+            },
+            "snippet": {
+              "publishedAt": "2013-09-07T18:53:51Z",
+              "channelId": "UC1ACyBSefsR2kSay4Gp7Rsg",
+              "title": "Ryan McGillen",
+              "description": "I play board games. I talk about them. You watch it. We become friends. One day, I save your life. That's how you find out I'm your ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lhK4WrDILYVD7ImqQ5Avl6mvlAuUa9hio47IJBeNVygrY=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lhK4WrDILYVD7ImqQ5Avl6mvlAuUa9hio47IJBeNVygrY=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lhK4WrDILYVD7ImqQ5Avl6mvlAuUa9hio47IJBeNVygrY=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Ryan McGillen",
+              "liveBroadcastContent": "none",
+              "publishTime": "2013-09-07T18:53:51Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "tubbsplaysgames": {
+    "ts": 1761320848031,
+    "value": {
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_lhK4WrDILYVD7ImqQ5Avl6mvlAuUa9hio47IJBeNVygrY=s88-c-k-c0x00ffffff-no-rj",
+      "title": "Ryan McGillen",
+      "subscriberCount": 24,
+      "hiddenSubscriberCount": false,
+      "viewCount": 1973,
+      "videoCount": 65,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "f3RzberL0tCDLe_wc-JGqL6wGUk",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "YxjFwKvy6XXo436g8THbRki_kfU",
+            "id": "UC1ACyBSefsR2kSay4Gp7Rsg",
+            "snippet": {
+              "title": "Ryan McGillen",
+              "description": "I play board games. I talk about them. You watch it. We become friends. One day, I save your life. That’s how you find out I’m your dad! DM for collab",
+              "customUrl": "@tubbsplaysgames",
+              "publishedAt": "2013-09-07T18:53:51Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lhK4WrDILYVD7ImqQ5Avl6mvlAuUa9hio47IJBeNVygrY=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lhK4WrDILYVD7ImqQ5Avl6mvlAuUa9hio47IJBeNVygrY=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lhK4WrDILYVD7ImqQ5Avl6mvlAuUa9hio47IJBeNVygrY=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "Ryan McGillen",
+                "description": "I play board games. I talk about them. You watch it. We become friends. One day, I save your life. That’s how you find out I’m your dad! DM for collab"
+              }
+            },
+            "statistics": {
+              "viewCount": "1973",
+              "subscriberCount": "24",
+              "hiddenSubscriberCount": false,
+              "videoCount": "65"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UC1ACyBSefsR2kSay4Gp7Rsg": {
+    "ts": 1761320848031,
+    "value": {
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_lhK4WrDILYVD7ImqQ5Avl6mvlAuUa9hio47IJBeNVygrY=s88-c-k-c0x00ffffff-no-rj",
+      "title": "Ryan McGillen",
+      "subscriberCount": 24,
+      "hiddenSubscriberCount": false,
+      "viewCount": 1973,
+      "videoCount": 65,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "f3RzberL0tCDLe_wc-JGqL6wGUk",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "YxjFwKvy6XXo436g8THbRki_kfU",
+            "id": "UC1ACyBSefsR2kSay4Gp7Rsg",
+            "snippet": {
+              "title": "Ryan McGillen",
+              "description": "I play board games. I talk about them. You watch it. We become friends. One day, I save your life. That’s how you find out I’m your dad! DM for collab",
+              "customUrl": "@tubbsplaysgames",
+              "publishedAt": "2013-09-07T18:53:51Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lhK4WrDILYVD7ImqQ5Avl6mvlAuUa9hio47IJBeNVygrY=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lhK4WrDILYVD7ImqQ5Avl6mvlAuUa9hio47IJBeNVygrY=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lhK4WrDILYVD7ImqQ5Avl6mvlAuUa9hio47IJBeNVygrY=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "Ryan McGillen",
+                "description": "I play board games. I talk about them. You watch it. We become friends. One day, I save your life. That’s how you find out I’m your dad! DM for collab"
+              }
+            },
+            "statistics": {
+              "viewCount": "1973",
+              "subscriberCount": "24",
+              "hiddenSubscriberCount": false,
+              "videoCount": "65"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "tabletoptastings": {
+    "ts": 1761320848038,
+    "value": {
+      "logo": "https://yt3.ggpht.com/n-UepIqLIQdvV0oGEUzjXnP8F-cKoS37j6fy9KTl_rSGDlzdXND2lcPXxtLCtWA5BAK-TNEB=s88-c-k-c0x00ffffff-no-rj",
+      "title": "Tabletop Tastings",
+      "subscriberCount": 1440,
+      "hiddenSubscriberCount": false,
+      "viewCount": 1121865,
+      "videoCount": 834,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "KN8zg0bSkfnDno75gK0SC71-tUE",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "rLHkZoY2kBiP2ZLEMNSkyOMXeD4",
+            "id": "UCT6hMjSQ9DQTIm507BDQYZA",
+            "snippet": {
+              "title": "Tabletop Tastings",
+              "description": "Tabletop Tastings is the perfect pairing of board games and whisky!\n\nOnce a month we reveal a new board game, do a full teach and playthrough, and select the perfect whisky to pair with the experience!  These videos are close to an hour or more and can be found in our \"Playthrough & Pairing\" playlists.\n\nOn a weekly basis, we do a \"Sip & Play\".  These are where we do a broad overview of a newer or classic board game and recommend a whisky to enjoy with your next playthrough of the game.  Episodes are shorter and a fun way to learn about both board games and whisky!\n",
+              "customUrl": "@tabletoptastings",
+              "publishedAt": "2023-09-19T23:29:25.02969Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/n-UepIqLIQdvV0oGEUzjXnP8F-cKoS37j6fy9KTl_rSGDlzdXND2lcPXxtLCtWA5BAK-TNEB=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/n-UepIqLIQdvV0oGEUzjXnP8F-cKoS37j6fy9KTl_rSGDlzdXND2lcPXxtLCtWA5BAK-TNEB=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/n-UepIqLIQdvV0oGEUzjXnP8F-cKoS37j6fy9KTl_rSGDlzdXND2lcPXxtLCtWA5BAK-TNEB=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "Tabletop Tastings",
+                "description": "Tabletop Tastings is the perfect pairing of board games and whisky!\n\nOnce a month we reveal a new board game, do a full teach and playthrough, and select the perfect whisky to pair with the experience!  These videos are close to an hour or more and can be found in our \"Playthrough & Pairing\" playlists.\n\nOn a weekly basis, we do a \"Sip & Play\".  These are where we do a broad overview of a newer or classic board game and recommend a whisky to enjoy with your next playthrough of the game.  Episodes are shorter and a fun way to learn about both board games and whisky!\n"
+              },
+              "country": "CA"
+            },
+            "statistics": {
+              "viewCount": "1121865",
+              "subscriberCount": "1440",
+              "hiddenSubscriberCount": false,
+              "videoCount": "834"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UCT6hMjSQ9DQTIm507BDQYZA": {
+    "ts": 1761320848038,
+    "value": {
+      "logo": "https://yt3.ggpht.com/n-UepIqLIQdvV0oGEUzjXnP8F-cKoS37j6fy9KTl_rSGDlzdXND2lcPXxtLCtWA5BAK-TNEB=s88-c-k-c0x00ffffff-no-rj",
+      "title": "Tabletop Tastings",
+      "subscriberCount": 1440,
+      "hiddenSubscriberCount": false,
+      "viewCount": 1121865,
+      "videoCount": 834,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "KN8zg0bSkfnDno75gK0SC71-tUE",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "rLHkZoY2kBiP2ZLEMNSkyOMXeD4",
+            "id": "UCT6hMjSQ9DQTIm507BDQYZA",
+            "snippet": {
+              "title": "Tabletop Tastings",
+              "description": "Tabletop Tastings is the perfect pairing of board games and whisky!\n\nOnce a month we reveal a new board game, do a full teach and playthrough, and select the perfect whisky to pair with the experience!  These videos are close to an hour or more and can be found in our \"Playthrough & Pairing\" playlists.\n\nOn a weekly basis, we do a \"Sip & Play\".  These are where we do a broad overview of a newer or classic board game and recommend a whisky to enjoy with your next playthrough of the game.  Episodes are shorter and a fun way to learn about both board games and whisky!\n",
+              "customUrl": "@tabletoptastings",
+              "publishedAt": "2023-09-19T23:29:25.02969Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/n-UepIqLIQdvV0oGEUzjXnP8F-cKoS37j6fy9KTl_rSGDlzdXND2lcPXxtLCtWA5BAK-TNEB=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/n-UepIqLIQdvV0oGEUzjXnP8F-cKoS37j6fy9KTl_rSGDlzdXND2lcPXxtLCtWA5BAK-TNEB=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/n-UepIqLIQdvV0oGEUzjXnP8F-cKoS37j6fy9KTl_rSGDlzdXND2lcPXxtLCtWA5BAK-TNEB=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "Tabletop Tastings",
+                "description": "Tabletop Tastings is the perfect pairing of board games and whisky!\n\nOnce a month we reveal a new board game, do a full teach and playthrough, and select the perfect whisky to pair with the experience!  These videos are close to an hour or more and can be found in our \"Playthrough & Pairing\" playlists.\n\nOn a weekly basis, we do a \"Sip & Play\".  These are where we do a broad overview of a newer or classic board game and recommend a whisky to enjoy with your next playthrough of the game.  Episodes are shorter and a fun way to learn about both board games and whisky!\n"
+              },
+              "country": "CA"
+            },
+            "statistics": {
+              "viewCount": "1121865",
+              "subscriberCount": "1440",
+              "hiddenSubscriberCount": false,
+              "videoCount": "834"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:slickerdrips": {
+    "ts": 1761321516005,
+    "value": {
+      "channelId": "UCmtyR1piEzGwYR5cfHo_VTQ",
+      "title": "slickerdrips",
+      "logo": "https://yt3.ggpht.com/M_RxMJ6nUXQn1p5--vrCKC4hMenCwVKmZbkWipEXj9u70G5-1F4o1xX0qsXd-OyCoMv7vnsvGVk=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "djLAZNfucZDDWbmGgS29kOOvojc",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 11,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "2veqKT08bN9rQEIIKIjTfwVArdo",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCmtyR1piEzGwYR5cfHo_VTQ"
+            },
+            "snippet": {
+              "publishedAt": "2006-06-13T13:33:49Z",
+              "channelId": "UCmtyR1piEzGwYR5cfHo_VTQ",
+              "title": "slickerdrips",
+              "description": "Hi! I'm Tom, I make videos about the board games so you know about the board games! Twitter: https://twitter.com/slicker_drips.",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/M_RxMJ6nUXQn1p5--vrCKC4hMenCwVKmZbkWipEXj9u70G5-1F4o1xX0qsXd-OyCoMv7vnsvGVk=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/M_RxMJ6nUXQn1p5--vrCKC4hMenCwVKmZbkWipEXj9u70G5-1F4o1xX0qsXd-OyCoMv7vnsvGVk=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/M_RxMJ6nUXQn1p5--vrCKC4hMenCwVKmZbkWipEXj9u70G5-1F4o1xX0qsXd-OyCoMv7vnsvGVk=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "slickerdrips",
+              "liveBroadcastContent": "none",
+              "publishTime": "2006-06-13T13:33:49Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UCmtyR1piEzGwYR5cfHo_VTQ": {
+    "ts": 1761320848510,
+    "value": {
+      "logo": "https://yt3.ggpht.com/M_RxMJ6nUXQn1p5--vrCKC4hMenCwVKmZbkWipEXj9u70G5-1F4o1xX0qsXd-OyCoMv7vnsvGVk=s88-c-k-c0x00ffffff-no-rj",
+      "title": "slickerdrips",
+      "subscriberCount": 23600,
+      "hiddenSubscriberCount": false,
+      "viewCount": 7224622,
+      "videoCount": 2170,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "t23BfHJNpbtck4vvqKewWEIVRf4",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "7NykIkLMjr0OlUtahtItUBPRHpE",
+            "id": "UCmtyR1piEzGwYR5cfHo_VTQ",
+            "snippet": {
+              "title": "slickerdrips",
+              "description": "Hi! I'm Tom, I make videos about the board games so you know about the board games!\n\nTwitter: https://twitter.com/slicker_drips",
+              "customUrl": "@slickerdrips",
+              "publishedAt": "2006-06-13T13:33:49Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/M_RxMJ6nUXQn1p5--vrCKC4hMenCwVKmZbkWipEXj9u70G5-1F4o1xX0qsXd-OyCoMv7vnsvGVk=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/M_RxMJ6nUXQn1p5--vrCKC4hMenCwVKmZbkWipEXj9u70G5-1F4o1xX0qsXd-OyCoMv7vnsvGVk=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/M_RxMJ6nUXQn1p5--vrCKC4hMenCwVKmZbkWipEXj9u70G5-1F4o1xX0qsXd-OyCoMv7vnsvGVk=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "slickerdrips",
+                "description": "Hi! I'm Tom, I make videos about the board games so you know about the board games!\n\nTwitter: https://twitter.com/slicker_drips"
+              },
+              "country": "GB"
+            },
+            "statistics": {
+              "viewCount": "7224622",
+              "subscriberCount": "23600",
+              "hiddenSubscriberCount": false,
+              "videoCount": "2170"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:@slickerdrips": {
+    "ts": 1761321516005,
+    "value": {
+      "channelId": "UCmtyR1piEzGwYR5cfHo_VTQ",
+      "title": "slickerdrips",
+      "logo": "https://yt3.ggpht.com/M_RxMJ6nUXQn1p5--vrCKC4hMenCwVKmZbkWipEXj9u70G5-1F4o1xX0qsXd-OyCoMv7vnsvGVk=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "djLAZNfucZDDWbmGgS29kOOvojc",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 11,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "2veqKT08bN9rQEIIKIjTfwVArdo",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCmtyR1piEzGwYR5cfHo_VTQ"
+            },
+            "snippet": {
+              "publishedAt": "2006-06-13T13:33:49Z",
+              "channelId": "UCmtyR1piEzGwYR5cfHo_VTQ",
+              "title": "slickerdrips",
+              "description": "Hi! I'm Tom, I make videos about the board games so you know about the board games! Twitter: https://twitter.com/slicker_drips.",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/M_RxMJ6nUXQn1p5--vrCKC4hMenCwVKmZbkWipEXj9u70G5-1F4o1xX0qsXd-OyCoMv7vnsvGVk=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/M_RxMJ6nUXQn1p5--vrCKC4hMenCwVKmZbkWipEXj9u70G5-1F4o1xX0qsXd-OyCoMv7vnsvGVk=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/M_RxMJ6nUXQn1p5--vrCKC4hMenCwVKmZbkWipEXj9u70G5-1F4o1xX0qsXd-OyCoMv7vnsvGVk=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "slickerdrips",
+              "liveBroadcastContent": "none",
+              "publishTime": "2006-06-13T13:33:49Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:@ITEACHHERSHEWINS": {
+    "ts": 1761321516251,
+    "value": {
+      "channelId": "UCgqHBsxsPnetWoLfwNJrdyQ",
+      "title": "I TEACH HER SHE WINS",
+      "logo": "https://yt3.ggpht.com/SwWA4y7TW_H98gC5XnjeTrzzLjEzu0gFzYiU7t-WgLDzfrbjrdFu7lTBxbM3GA1KjcR7eRvcjkE=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "YA8DYPG39DZH3oSvE5TKsX1UV0o",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "Vyb9oH5BUaBvkgtJKTeCcDWJ5Ug",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCgqHBsxsPnetWoLfwNJrdyQ"
+            },
+            "snippet": {
+              "publishedAt": "2011-09-15T20:55:45Z",
+              "channelId": "UCgqHBsxsPnetWoLfwNJrdyQ",
+              "title": "I TEACH HER SHE WINS",
+              "description": "Welcome to I Teach Her She Wins – a hilarious international board game web series where strategy meets comedy and the ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/SwWA4y7TW_H98gC5XnjeTrzzLjEzu0gFzYiU7t-WgLDzfrbjrdFu7lTBxbM3GA1KjcR7eRvcjkE=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/SwWA4y7TW_H98gC5XnjeTrzzLjEzu0gFzYiU7t-WgLDzfrbjrdFu7lTBxbM3GA1KjcR7eRvcjkE=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/SwWA4y7TW_H98gC5XnjeTrzzLjEzu0gFzYiU7t-WgLDzfrbjrdFu7lTBxbM3GA1KjcR7eRvcjkE=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "I TEACH HER SHE WINS",
+              "liveBroadcastContent": "none",
+              "publishTime": "2011-09-15T20:55:45Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:ITEACHHERSHEWINS": {
+    "ts": 1761321516251,
+    "value": {
+      "channelId": "UCgqHBsxsPnetWoLfwNJrdyQ",
+      "title": "I TEACH HER SHE WINS",
+      "logo": "https://yt3.ggpht.com/SwWA4y7TW_H98gC5XnjeTrzzLjEzu0gFzYiU7t-WgLDzfrbjrdFu7lTBxbM3GA1KjcR7eRvcjkE=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "YA8DYPG39DZH3oSvE5TKsX1UV0o",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "Vyb9oH5BUaBvkgtJKTeCcDWJ5Ug",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCgqHBsxsPnetWoLfwNJrdyQ"
+            },
+            "snippet": {
+              "publishedAt": "2011-09-15T20:55:45Z",
+              "channelId": "UCgqHBsxsPnetWoLfwNJrdyQ",
+              "title": "I TEACH HER SHE WINS",
+              "description": "Welcome to I Teach Her She Wins – a hilarious international board game web series where strategy meets comedy and the ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/SwWA4y7TW_H98gC5XnjeTrzzLjEzu0gFzYiU7t-WgLDzfrbjrdFu7lTBxbM3GA1KjcR7eRvcjkE=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/SwWA4y7TW_H98gC5XnjeTrzzLjEzu0gFzYiU7t-WgLDzfrbjrdFu7lTBxbM3GA1KjcR7eRvcjkE=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/SwWA4y7TW_H98gC5XnjeTrzzLjEzu0gFzYiU7t-WgLDzfrbjrdFu7lTBxbM3GA1KjcR7eRvcjkE=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "I TEACH HER SHE WINS",
+              "liveBroadcastContent": "none",
+              "publishTime": "2011-09-15T20:55:45Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UCgqHBsxsPnetWoLfwNJrdyQ": {
+    "ts": 1761321513326,
+    "value": {
+      "logo": "https://yt3.ggpht.com/SwWA4y7TW_H98gC5XnjeTrzzLjEzu0gFzYiU7t-WgLDzfrbjrdFu7lTBxbM3GA1KjcR7eRvcjkE=s88-c-k-c0x00ffffff-no-rj",
+      "title": "I TEACH HER SHE WINS",
+      "subscriberCount": 327,
+      "hiddenSubscriberCount": false,
+      "viewCount": 65732,
+      "videoCount": 124,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "_ySmHo4E7BSFgPpdwOGk-D82gh8",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "k37SuvxljFc6l3KEOFZAStPWDZo",
+            "id": "UCgqHBsxsPnetWoLfwNJrdyQ",
+            "snippet": {
+              "title": "I TEACH HER SHE WINS",
+              "description": "🎲 Welcome to I Teach Her She Wins – a hilarious international board game web series where strategy meets comedy and the teacher always loses! Based between Italy and the US, our episodes are in English (with a touch of accent flair 😉) and feature the best card and board games—from quick tutorials and game reviews to winning strategies and fun facts.\nEach video includes:\n🎭 A short comedy sketch with actors from both countries\n📦 Unboxings, rules explanations, and how to win tips\n😂 Plenty of bloopers, laughs, and surprises\n\nWhether you're a casual gamer or a tabletop enthusiast, our goal is simple: to make you laugh, learn, and fall in love with board games all over again.\n\n👉 Support us and explore more at: https://albertoresti.com/i-teach-her-she-wins/\nSubscribe for:\nBoard game comedy and review\nFunny couple dynamics\nStrategy tips that (sometimes) work\nReviews of top games like Hegemony, Pax Pamir 2nd, Android Netrunner etc.\n#boardgames #iteachhershewins #boardgamesgeek #boardgamecomedy\n",
+              "customUrl": "@iteachhershewins",
+              "publishedAt": "2011-09-15T20:55:45Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/SwWA4y7TW_H98gC5XnjeTrzzLjEzu0gFzYiU7t-WgLDzfrbjrdFu7lTBxbM3GA1KjcR7eRvcjkE=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/SwWA4y7TW_H98gC5XnjeTrzzLjEzu0gFzYiU7t-WgLDzfrbjrdFu7lTBxbM3GA1KjcR7eRvcjkE=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/SwWA4y7TW_H98gC5XnjeTrzzLjEzu0gFzYiU7t-WgLDzfrbjrdFu7lTBxbM3GA1KjcR7eRvcjkE=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "I TEACH HER SHE WINS",
+                "description": "🎲 Welcome to I Teach Her She Wins – a hilarious international board game web series where strategy meets comedy and the teacher always loses! Based between Italy and the US, our episodes are in English (with a touch of accent flair 😉) and feature the best card and board games—from quick tutorials and game reviews to winning strategies and fun facts.\nEach video includes:\n🎭 A short comedy sketch with actors from both countries\n📦 Unboxings, rules explanations, and how to win tips\n😂 Plenty of bloopers, laughs, and surprises\n\nWhether you're a casual gamer or a tabletop enthusiast, our goal is simple: to make you laugh, learn, and fall in love with board games all over again.\n\n👉 Support us and explore more at: https://albertoresti.com/i-teach-her-she-wins/\nSubscribe for:\nBoard game comedy and review\nFunny couple dynamics\nStrategy tips that (sometimes) work\nReviews of top games like Hegemony, Pax Pamir 2nd, Android Netrunner etc.\n#boardgames #iteachhershewins #boardgamesgeek #boardgamecomedy\n"
+              },
+              "country": "IT"
+            },
+            "statistics": {
+              "viewCount": "65732",
+              "subscriberCount": "327",
+              "hiddenSubscriberCount": false,
+              "videoCount": "124"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

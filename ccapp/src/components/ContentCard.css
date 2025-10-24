@@ -44,12 +44,32 @@
   align-items: center;
   gap: 10px;
   min-width: 0;
+  flex-wrap: wrap;
 }
 
 .header-channel-title {
   margin: 0;
   font-size: 1.05rem;
   color: #2c3e50;
+  flex: 1;
+  min-width: 0;
+}
+
+.subscriber-count {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #e8f4f8;
+  color: #2980b9;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.subscriber-count.hidden {
+  background: #f0f0f0;
+  color: #95a5a6;
+  font-style: italic;
 }
 
 .location {
@@ -77,10 +97,19 @@
   color: #34495e;
 }
 
-.channel-title {
+.creator-name-row {
   display: flex;
   align-items: center;
-  gap: 8px;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.channel-title {
+  margin: 0;
+  color: #34495e;
+  flex: 1;
+  min-width: 0;
 }
 
 .channel-logo-img {

@@ -49,15 +49,15 @@ loadCacheFromDisk();
 /**
  * getChannelInfo - fetch basic channel info from YouTube Data API
  *
- * @param {string} channelId - YouTube channel ID (starts with 'UC')
+ * @param {string} channelIdOrName - YouTube channel ID (starts with 'UC') or channel handle/name
  * @param {object} [opts]
  * @param {string} [opts.apiKey] - Optional API key (falls back to process.env.YT_API_KEY)
  * @param {number} [opts.ttl] - Cache TTL in ms
- * @returns {Promise<{logo:string,title:string,raw:object}>}
+ * @returns {Promise<{logo:string,title:string,subscriberCount:number,raw:object}>}
  */
-async function getChannelInfo(channelId, opts = {}) {
-  if (!channelId || typeof channelId !== 'string') {
-    throw new TypeError('channelId must be a non-empty string');
+async function getChannelInfo(channelIdOrName, opts = {}) {
+  if (!channelIdOrName || typeof channelIdOrName !== 'string') {
+    throw new TypeError('channelIdOrName must be a non-empty string');
   }
 
   const apiKey = opts.apiKey || process.env.YT_API_KEY || process.env.YOUTUBE_API_KEY;
@@ -68,12 +68,31 @@ async function getChannelInfo(channelId, opts = {}) {
   const ttl = typeof opts.ttl === 'number' ? opts.ttl : DEFAULT_TTL;
 
   // Return cached value when valid
-  const cached = cache.get(channelId);
+  const cached = cache.get(channelIdOrName);
   if (cached && Date.now() - cached.ts < ttl) {
     return cached.value;
   }
 
-  const url = `https://www.googleapis.com/youtube/v3/channels?part=snippet&id=${encodeURIComponent(channelId)}&key=${apiKey}`;
+  let channelId = channelIdOrName;
+
+  // If it doesn't look like a channel ID (UC...), try to resolve it as a handle/name
+  if (!/^UC[\w-]{22}$/.test(channelIdOrName)) {
+    console.log(`Attempting to resolve channel name/handle: ${channelIdOrName}`);
+    try {
+      const resolved = await resolveChannelByQuery(channelIdOrName, opts);
+      if (resolved && resolved.channelId) {
+        channelId = resolved.channelId;
+        console.log(`Resolved ${channelIdOrName} to channel ID: ${channelId}`);
+      } else {
+        throw new Error(`Could not resolve channel name/handle: ${channelIdOrName}`);
+      }
+    } catch (err) {
+      console.error(`Failed to resolve channel name ${channelIdOrName}:`, err.message);
+      throw err;
+    }
+  }
+
+  const url = `https://www.googleapis.com/youtube/v3/channels?part=snippet,statistics&id=${encodeURIComponent(channelId)}&key=${apiKey}`;
 
   console.log('Fetching YouTube API:', url.replace(apiKey, 'REDACTED'));
   
@@ -111,6 +130,7 @@ async function getChannelInfo(channelId, opts = {}) {
   }
 
   const snippet = data.items[0].snippet || {};
+  const statistics = data.items[0].statistics || {};
   const logo = snippet.thumbnails && (snippet.thumbnails.default || snippet.thumbnails.medium || snippet.thumbnails.high)
     ? (snippet.thumbnails.default || snippet.thumbnails.medium || snippet.thumbnails.high).url
     : null;
@@ -118,11 +138,18 @@ async function getChannelInfo(channelId, opts = {}) {
   const value = {
     logo,
     title: snippet.title || null,
+    subscriberCount: statistics.subscriberCount ? parseInt(statistics.subscriberCount, 10) : null,
+    hiddenSubscriberCount: statistics.hiddenSubscriberCount || false,
+    viewCount: statistics.viewCount ? parseInt(statistics.viewCount, 10) : null,
+    videoCount: statistics.videoCount ? parseInt(statistics.videoCount, 10) : null,
     raw: data
   };
 
-  // Cache result in memory
-  cache.set(channelId, { ts: Date.now(), value });
+  // Cache result in memory (using both original input and resolved channelId as keys)
+  cache.set(channelIdOrName, { ts: Date.now(), value });
+  if (channelId !== channelIdOrName) {
+    cache.set(channelId, { ts: Date.now(), value });
+  }
   
   // Save cache to disk asynchronously (don't wait)
   setImmediate(() => saveCacheToDisk());
@@ -144,46 +171,72 @@ async function resolveChannelByQuery(query, opts = {}) {
   if (!apiKey) throw new Error('YouTube API key not provided. Set YT_API_KEY or pass opts.apiKey');
 
   const ttl = typeof opts.ttl === 'number' ? opts.ttl : DEFAULT_TTL;
-  
-  // Check cache using query as key
-  const cacheKey = `query:${query}`;
-  const cached = cache.get(cacheKey);
-  if (cached && Date.now() - cached.ts < ttl) {
-    return cached.value;
+
+  const trimmed = query.trim();
+  // Try handle-first: if no leading '@', try '@name' first, then fallback to original query
+  const attempts = [];
+  if (!trimmed.startsWith('@')) {
+    attempts.push(`@${trimmed}`);
+  }
+  attempts.push(trimmed);
+
+  // Helper to fetch a single attempt and return null if not found (404/empty)
+  const tryFetch = async (q) => {
+    const cacheKey = `query:${q}`;
+    const cached = cache.get(cacheKey);
+    if (cached && Date.now() - cached.ts < ttl) {
+      return { value: cached.value, cacheKey };
+    }
+
+    const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=channel&maxResults=1&q=${encodeURIComponent(q)}&key=${apiKey}`;
+    try {
+      console.log(`Resolving via YouTube Search with query: ${q}`);
+      const res = await fetch(url, { timeout: 10000 });
+      if (!res.ok) {
+        const text = await res.text().catch(() => '');
+        const err = new Error(`YouTube Search API error ${res.status}: ${text}`);
+        err.status = res.status;
+        throw err;
+      }
+      const data = await res.json();
+      if (!data.items || !data.items.length) {
+        return null; // not found for this attempt
+      }
+      const item = data.items[0];
+      const channelId = (item.id && item.id.channelId) || (item.snippet && item.snippet.channelId) || null;
+      const snippet = item.snippet || {};
+      const logo = snippet.thumbnails && (snippet.thumbnails.default || snippet.thumbnails.medium || snippet.thumbnails.high)
+        ? (snippet.thumbnails.default || snippet.thumbnails.medium || snippet.thumbnails.high).url
+        : null;
+      const value = { channelId, title: snippet.title || null, logo, raw: data };
+      return { value, cacheKey };
+    } catch (e) {
+      // Only swallow 404-like empty results; rethrow other API errors
+      if (e && (e.status === 404)) {
+        return null;
+      }
+      throw e;
+    }
+  };
+
+  // Try attempts in order
+  for (const attempt of attempts) {
+    const result = await tryFetch(attempt);
+    if (result && result.value) {
+      // Cache under both the attempt-specific key and the original query for faster subsequent lookups
+      cache.set(result.cacheKey, { ts: Date.now(), value: result.value });
+      cache.set(`query:${trimmed}`, { ts: Date.now(), value: result.value });
+      setImmediate(() => saveCacheToDisk());
+      if (attempt.startsWith('@') && attempt !== trimmed) {
+        console.log(`Resolved by handle-first: used ${attempt} for query '${trimmed}'`);
+      }
+      return result.value;
+    }
   }
 
-  const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&type=channel&maxResults=1&q=${encodeURIComponent(query)}&key=${apiKey}`;
-  const res = await fetch(url, { timeout: 10000 });
-  if (!res.ok) {
-    const text = await res.text().catch(() => '');
-    const err = new Error(`YouTube Search API error ${res.status}: ${text}`);
-    err.status = res.status;
-    throw err;
-  }
-
-  const data = await res.json();
-  if (!data.items || !data.items.length) {
-    const err = new Error('Channel not found');
-    err.status = 404;
-    throw err;
-  }
-
-  const item = data.items[0];
-  const channelId = (item.id && item.id.channelId) || (item.snippet && item.snippet.channelId) || null;
-  const snippet = item.snippet || {};
-  const logo = snippet.thumbnails && (snippet.thumbnails.default || snippet.thumbnails.medium || snippet.thumbnails.high)
-    ? (snippet.thumbnails.default || snippet.thumbnails.medium || snippet.thumbnails.high).url
-    : null;
-
-  const value = { channelId, title: snippet.title || null, logo, raw: data };
-  
-  // Cache result in memory
-  cache.set(cacheKey, { ts: Date.now(), value });
-  
-  // Save cache to disk asynchronously
-  setImmediate(() => saveCacheToDisk());
-  
-  return value;
+  const err = new Error('Channel not found');
+  err.status = 404;
+  throw err;
 }
 
 module.exports = {

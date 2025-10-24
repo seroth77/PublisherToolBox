@@ -84,7 +84,12 @@ app.get('/api/channel/:channelId', async (req, res) => {
 
     console.log(`Fetching channel info for ${channelId}`);
     const info = await getChannelInfo(channelId);
-    console.log(`Channel info retrieved:`, { title: info.title, hasLogo: !!info.logo });
+    console.log(`Channel info retrieved:`, { 
+      title: info.title, 
+      hasLogo: !!info.logo,
+      subscriberCount: info.subscriberCount,
+      hiddenSubscriberCount: info.hiddenSubscriberCount
+    });
     
     // Attempt to cache the logo and return a local URL when possible
     const cachedPath = await cacheImage(channelId, info.logo).catch(err => {
@@ -92,7 +97,14 @@ app.get('/api/channel/:channelId', async (req, res) => {
       return null;
     });
     const logoUrl = cachedPath || info.logo;
-    res.json({ logo: logoUrl, title: info.title });
+    res.json({ 
+      logo: logoUrl, 
+      title: info.title, 
+      subscriberCount: info.subscriberCount,
+      hiddenSubscriberCount: info.hiddenSubscriberCount,
+      viewCount: info.viewCount,
+      videoCount: info.videoCount
+    });
   } catch (err) {
     console.error('API error for channel', channelId, ':', {
       message: err.message,

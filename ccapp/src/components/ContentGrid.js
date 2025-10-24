@@ -12,33 +12,46 @@ export default function ContentGrid({ items = [] }) {
   const [paidContentFilter, setPaidContentFilter] = useState('all')
   const [sortOption, setSortOption] = useState('nameAsc')
 
+  // De-duplicate items by channel name (keep first occurrence)
+  const deduplicatedItems = useMemo(() => {
+    const seen = new Set()
+    return items.filter(it => {
+      const channelName = normalize(it['What is the name of your channel?']).toLowerCase().trim()
+      if (!channelName || seen.has(channelName)) {
+        return false
+      }
+      seen.add(channelName)
+      return true
+    })
+  }, [items])
+
   const platforms = useMemo(() => {
     const s = new Set()
-    items.forEach(it => {
+    deduplicatedItems.forEach(it => {
       normalize(it['What platform is your channel on?']).split(';').forEach(p => { const t = p.trim(); if (t) s.add(t) })
     })
     return Array.from(s).sort()
-  }, [items])
+  }, [deduplicatedItems])
 
   const countries = useMemo(() => {
     const s = new Set()
-    items.forEach(it => {
+    deduplicatedItems.forEach(it => {
       const c = normalize(it['What country are located in?']).trim()
       if (c) s.add(c)
     })
     return Array.from(s).sort()
-  }, [items])
+  }, [deduplicatedItems])
 
   const filtered = useMemo(() => {
     console.log('Filtering grid items:', {
-      total: items.length,
+      total: deduplicatedItems.length,
       searchQuery: search,
       selectedPlatforms,
       selectedCountries,
       paidContentFilter
     })
     const q = search.trim().toLowerCase()
-    return items.filter(it => {
+    return deduplicatedItems.filter(it => {
       if (q) {
         const hay = (
           normalize(it['What is your name?']) + ' ' +
@@ -69,7 +82,7 @@ export default function ContentGrid({ items = [] }) {
 
       return true
     })
-  }, [items, search, selectedPlatforms, selectedCountries, paidContentFilter])
+  }, [deduplicatedItems, search, selectedPlatforms, selectedCountries, paidContentFilter])
 
   const sorted = useMemo(() => {
     const out = [...filtered]
@@ -114,7 +127,7 @@ export default function ContentGrid({ items = [] }) {
         onPaidContentChange={setPaidContentFilter}
         onSortChange={setSortOption}
         onClearFilters={clearFilters}
-        totalResults={items.length}
+        totalResults={deduplicatedItems.length}
         filteredCount={sorted.length}
       />
 
