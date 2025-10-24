@@ -23,6 +23,23 @@ export default function ContentCard({ data }) {
     name: data['What is the name of your channel?']
   }), [data]);
 
+  // Normalize platforms list from CSV
+  const platforms = useMemo(() => {
+    const raw = data['What platform is your channel on?'] || '';
+    return raw
+      .split(/[;,&]/)
+      .map(p => p.trim())
+      .filter(Boolean);
+  }, [data]);
+
+  const isInstagramOnly = useMemo(() => {
+    return platforms.length === 1 && /instagram/i.test(platforms[0]);
+  }, [platforms]);
+
+  const isWebsiteOnly = useMemo(() => {
+    return platforms.length === 1 && /website/i.test(platforms[0]);
+  }, [platforms]);
+
   useEffect(() => {
     let mounted = true;
     const abortController = new AbortController();
@@ -79,10 +96,16 @@ export default function ContentCard({ data }) {
       <div className="content-card-header">
         <div className="header-channel">
           {loadingLogo && <span className="logo-placeholder loading">⏳</span>}
-          {!loadingLogo && channelInfo && channelInfo.logo && (
+          {!loadingLogo && isInstagramOnly && (
+            <img src="/icons/instagram.svg" alt="Instagram logo" className="channel-logo-img" />
+          )}
+          {!loadingLogo && isWebsiteOnly && (
+            <img src="/icons/globe.svg" alt="Website logo" className="channel-logo-img" />
+          )}
+          {!loadingLogo && !isInstagramOnly && !isWebsiteOnly && channelInfo && channelInfo.logo && (
             <img src={channelInfo.logo} alt={`${data['What is the name of your channel?']} logo`} className="channel-logo-img" />
           )}
-          {!loadingLogo && (!channelInfo || !channelInfo.logo) && (
+          {!loadingLogo && !isInstagramOnly && !isWebsiteOnly && (!channelInfo || !channelInfo.logo) && (
             <span className="logo-placeholder">🎬</span>
           )}
           <h3 className="header-channel-title">{data['What is the name of your channel?']}</h3>
@@ -119,11 +142,15 @@ export default function ContentCard({ data }) {
           Visit Channel
         </a>
         <div className="platforms">
-          {(data['What platform is your channel on?'] || '').split(';').map(platform => (
-            <span key={platform} className="platform-tag">
-              {platform.trim()}
-            </span>
-          ))}
+          {(data['What platform is your channel on?'] || '')
+            .split(/[;,&]/)
+            .map(platform => platform.trim())
+            .filter(Boolean)
+            .map(platform => (
+              <span key={platform} className="platform-tag">
+                {platform}
+              </span>
+            ))}
         </div>
       </div>
 

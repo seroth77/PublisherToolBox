@@ -1,0 +1,8 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Website" focusable="false">
+  <title>Website</title>
+  <circle cx="12" cy="12" r="10" stroke="#3498db" stroke-width="2" fill="none"/>
+  <ellipse cx="12" cy="12" rx="4" ry="10" stroke="#3498db" stroke-width="2" fill="none"/>
+  <line x1="2" y1="12" x2="22" y2="12" stroke="#3498db" stroke-width="2"/>
+  <path d="M12 2 Q16 6 16 12 Q16 18 12 22" stroke="#3498db" stroke-width="1.5" fill="none"/>
+  <path d="M12 2 Q8 6 8 12 Q8 18 12 22" stroke="#3498db" stroke-width="1.5" fill="none"/>
+</svg>

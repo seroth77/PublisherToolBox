@@ -834,7 +834,7 @@
     }
   },
   "query:slickerdrips": {
-    "ts": 1761321516005,
+    "ts": 1761322680889,
     "value": {
       "channelId": "UCmtyR1piEzGwYR5cfHo_VTQ",
       "title": "slickerdrips",
@@ -942,7 +942,7 @@
     }
   },
   "query:@slickerdrips": {
-    "ts": 1761321516005,
+    "ts": 1761322680889,
     "value": {
       "channelId": "UCmtyR1piEzGwYR5cfHo_VTQ",
       "title": "slickerdrips",
@@ -990,7 +990,7 @@
     }
   },
   "query:@ITEACHHERSHEWINS": {
-    "ts": 1761321516251,
+    "ts": 1761322680825,
     "value": {
       "channelId": "UCgqHBsxsPnetWoLfwNJrdyQ",
       "title": "I TEACH HER SHE WINS",
@@ -1037,7 +1037,7 @@
     }
   },
   "query:ITEACHHERSHEWINS": {
-    "ts": 1761321516251,
+    "ts": 1761322680825,
     "value": {
       "channelId": "UCgqHBsxsPnetWoLfwNJrdyQ",
       "title": "I TEACH HER SHE WINS",
@@ -1137,6 +1137,162 @@
               "subscriberCount": "327",
               "hiddenSubscriberCount": false,
               "videoCount": "124"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:@learntoplaygames": {
+    "ts": 1761322680826,
+    "value": {
+      "channelId": "UCdIi9YZRjYjU1MdrrpJ0wFg",
+      "title": "Learn to Play Games",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_mPchtszao1qyayF9HbzK7L1CNq4Mehzlm56tZ_3J9VbPg=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "qQItCMfi_bBhBZFLvtKa2A9ZKbc",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 384,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "FB8h0-aNFrnGRDd1M_ElWqb3-eU",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCdIi9YZRjYjU1MdrrpJ0wFg"
+            },
+            "snippet": {
+              "publishedAt": "2015-07-21T15:04:49Z",
+              "channelId": "UCdIi9YZRjYjU1MdrrpJ0wFg",
+              "title": "Learn to Play Games",
+              "description": "We make videos about one of the things we love…GAMES! We play a lot of games. Game nights, game conventions, demoing ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mPchtszao1qyayF9HbzK7L1CNq4Mehzlm56tZ_3J9VbPg=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mPchtszao1qyayF9HbzK7L1CNq4Mehzlm56tZ_3J9VbPg=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mPchtszao1qyayF9HbzK7L1CNq4Mehzlm56tZ_3J9VbPg=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Learn to Play Games",
+              "liveBroadcastContent": "none",
+              "publishTime": "2015-07-21T15:04:49Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:learntoplaygames": {
+    "ts": 1761322680826,
+    "value": {
+      "channelId": "UCdIi9YZRjYjU1MdrrpJ0wFg",
+      "title": "Learn to Play Games",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_mPchtszao1qyayF9HbzK7L1CNq4Mehzlm56tZ_3J9VbPg=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "qQItCMfi_bBhBZFLvtKa2A9ZKbc",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 384,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "FB8h0-aNFrnGRDd1M_ElWqb3-eU",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCdIi9YZRjYjU1MdrrpJ0wFg"
+            },
+            "snippet": {
+              "publishedAt": "2015-07-21T15:04:49Z",
+              "channelId": "UCdIi9YZRjYjU1MdrrpJ0wFg",
+              "title": "Learn to Play Games",
+              "description": "We make videos about one of the things we love…GAMES! We play a lot of games. Game nights, game conventions, demoing ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mPchtszao1qyayF9HbzK7L1CNq4Mehzlm56tZ_3J9VbPg=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mPchtszao1qyayF9HbzK7L1CNq4Mehzlm56tZ_3J9VbPg=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mPchtszao1qyayF9HbzK7L1CNq4Mehzlm56tZ_3J9VbPg=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Learn to Play Games",
+              "liveBroadcastContent": "none",
+              "publishTime": "2015-07-21T15:04:49Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UCdIi9YZRjYjU1MdrrpJ0wFg": {
+    "ts": 1761321627781,
+    "value": {
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_mPchtszao1qyayF9HbzK7L1CNq4Mehzlm56tZ_3J9VbPg=s88-c-k-c0x00ffffff-no-rj",
+      "title": "Learn to Play Games",
+      "subscriberCount": 17100,
+      "hiddenSubscriberCount": false,
+      "viewCount": 3140419,
+      "videoCount": 849,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "QYdYKpshEwoCg0v-GrGhypeRMtw",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "i6mNu9TV8Hw0JnZK6MfE_ZR3vsI",
+            "id": "UCdIi9YZRjYjU1MdrrpJ0wFg",
+            "snippet": {
+              "title": "Learn to Play Games",
+              "description": "We make videos about one of the things we love…GAMES!  We play a lot of games. Game nights, game conventions, demoing games… we're continually learning new ones. So, what happens when we go back to a game that we haven’t played for a while?!?! We forgot some of the rules and how to play…Bummer! \n\nWe have to learn the rules and understand the gameplay for every game that ends up in our hands. We’ve already done the hard part here at Learn To Play Games, so let us give you the quick and easy way to learn the game without skimping out on the finer points. It's all about minimizing the time you have to spend figuring it out and maximizing your time to play so that you can quickly “Roll the dice, and dive in”!\n\nTwitter: http://twitter.com/LearnToPlayG\nTwitch:  Watch live video from learn2playgames on www.twitch.tv\nFacebook: https://www.facebook.com/LearntoPlayGames/\nInstagram: http://instagram.com/",
+              "customUrl": "@learntoplaygames",
+              "publishedAt": "2015-07-21T15:04:49Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mPchtszao1qyayF9HbzK7L1CNq4Mehzlm56tZ_3J9VbPg=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mPchtszao1qyayF9HbzK7L1CNq4Mehzlm56tZ_3J9VbPg=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mPchtszao1qyayF9HbzK7L1CNq4Mehzlm56tZ_3J9VbPg=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "Learn to Play Games",
+                "description": "We make videos about one of the things we love…GAMES!  We play a lot of games. Game nights, game conventions, demoing games… we're continually learning new ones. So, what happens when we go back to a game that we haven’t played for a while?!?! We forgot some of the rules and how to play…Bummer! \n\nWe have to learn the rules and understand the gameplay for every game that ends up in our hands. We’ve already done the hard part here at Learn To Play Games, so let us give you the quick and easy way to learn the game without skimping out on the finer points. It's all about minimizing the time you have to spend figuring it out and maximizing your time to play so that you can quickly “Roll the dice, and dive in”!\n\nTwitter: http://twitter.com/LearnToPlayG\nTwitch:  Watch live video from learn2playgames on www.twitch.tv\nFacebook: https://www.facebook.com/LearntoPlayGames/\nInstagram: http://instagram.com/"
+              },
+              "country": "US"
+            },
+            "statistics": {
+              "viewCount": "3140419",
+              "subscriberCount": "17100",
+              "hiddenSubscriberCount": false,
+              "videoCount": "849"
             }
           }
         ]
