@@ -2,10 +2,10 @@
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 16px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 7px;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
@@ -18,9 +18,15 @@
   border-bottom: 1px solid #eee;
   padding-bottom: 8px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.header-top-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
 }
 
 .content-card-header h3 {
@@ -44,23 +50,91 @@
   align-items: center;
   gap: 10px;
   min-width: 0;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  flex-direction: column;
 }
 
 .header-channel-title {
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 0.9rem;
   color: #2c3e50;
   flex: 1;
   min-width: 0;
+  text-align: center;
+}
+
+.header-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-channel .header-actions {
+  justify-content: center;
+}
+
+.header-actions {
+  margin-top: 4px;
+}
+
+/* Add a subtle divider between meta and the Visit button when inside header-channel */
+.header-channel .header-actions {
+  border-top: 1px solid #eee;
+  padding-top: 6px;
+  margin-top: 6px;
+}
+
+/* Button style for the Visit Channel link */
+.header-actions .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #2980b9;
+  color: #ffffff;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.header-actions .btn:hover {
+  background: #2471a3;
+  text-decoration: none;
+}
+
+.header-actions .btn:active {
+  background: #1f5e8f;
+}
+
+.header-actions .btn:focus-visible {
+  outline: 2px solid #3498db;
+  outline-offset: 2px;
+}
+
+/* Mobile: make Visit button full-width for easier tapping */
+@media (max-width: 600px) {
+  .header-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* On very small screens, stack the meta items vertically for cleaner wrapping */
+@media (max-width: 480px) {
+  .header-channel .header-meta {
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
 }
 
 .subscriber-count {
   display: inline-block;
-  padding: 2px 8px;
+  padding: 2px 6px;
   background: #e8f4f8;
   color: #2980b9;
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   font-weight: 600;
   border-radius: 12px;
   white-space: nowrap;
@@ -72,10 +146,21 @@
   font-style: italic;
 }
 
+.paid-badge {
+  display: inline-block;
+  padding: 2px 6px;
+  background: #fdf3e7;
+  color: #d35400;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
 .location {
   white-space: nowrap;
   color: #7f8c8d;
-  font-size: 0.9em;
+  font-size: 0.75em;
 }
 
 .location-flag {
@@ -101,7 +186,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 12px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
@@ -113,8 +198,8 @@
 }
 
 .channel-logo-img {
-  width: 44px;
-  height: 44px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -123,12 +208,12 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
   background: #f0f2f4;
   color: #2c3e50;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .logo-placeholder.loading {
@@ -147,7 +232,7 @@
 .platforms {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  gap: 4px;
   list-style: none;
   padding-left: 0;
 }
@@ -155,17 +240,19 @@
 .platform-tag {
   background: #e8f4f8;
   color: #2980b9;
-  padding: 4px 8px;
+  padding: 3px 6px;
   border-radius: 4px;
-  font-size: 0.85em;
+  font-size: 0.75em;
 }
 
 .content-card-details {
-  font-size: 0.9em;
+  font-size: 0.75em;
+  margin-top: 8px; /* add separation from Platforms */
+  text-align: left; /* ensure Content Type is left-aligned */
 }
 
 .content-card-details p {
-  margin: 4px 0;
+  margin: 3px 0;
 }
 
 .content-card-games {
@@ -187,29 +274,165 @@
 
 .content-card-footer {
   margin-top: auto;
-  padding-top: 8px;
+  padding-top: 6px;
   border-top: 1px solid #eee;
-  font-size: 0.9em;
+  font-size: 0.75em;
 }
 
 /* Polished header/channel behavior */
 .header-channel-title {
-  max-width: 60vw;
+  max-width: 180px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 900px) {
   .header-channel-title {
-    max-width: 40vw;
+    max-width: 200px;
   }
 }
 
 .content-card {
   transition: transform 0.12s ease, box-shadow 0.12s ease;
+  cursor: pointer;
 }
 
 .content-card:hover {
   transform: translateY(-3px);
+}
+
+/* Sections layout */
+.card-sections {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.card-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1 1 0;
+}
+
+.section-top .header-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Space the meta row under the channel title when nested inside header-channel */
+.header-channel .header-meta {
+  margin-top: 4px;
+}
+
+.section-middle .section-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.section-middle .section-col {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+/* Stack the Platforms list under its label and align left */
+.section-middle .platforms-col {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.section-middle .platforms-col > strong {
+  line-height: 1.2;
+  font-weight: 600; /* slightly less bold than default strong */
+}
+.section-middle .platforms-col .platforms {
+  margin: 0;
+  padding-left: 10px; /* indent chips under label */
+}
+
+.visit-col a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.visit-col a:hover { text-decoration: underline; }
+
+/* Responsive: stack sections on narrow screens */
+@media (max-width: 900px) {
+  .card-sections {
+    flex-direction: column;
+  }
+}
+
+/* Overlay styles */
+.overlay-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.overlay {
+  background: #fff;
+  color: #2c3e50;
+  /* Constrained dialog panel centered in the semi-transparent backdrop */
+  width: min(700px, 90vw);
+  max-height: 80vh;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+.overlay-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.overlay-header h3 { margin: 0; }
+
+.overlay-body {
+  padding: 16px;
+  overflow: auto;
+  flex: 1 1 auto;
+}
+
+.overlay-close {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+  color: #2c3e50;
+}
+
+.overlay-close:focus-visible {
+  outline: 2px solid #3498db;
+  outline-offset: 2px;
+}
+
+.fav-games-list {
+  margin: 0;
+  padding-left: 20px;
+}
+.fav-games-list li {
+  margin: 4px 0;
+}
+
+/* Prevent background scroll when overlay is open */
+body.no-scroll {
+  overflow: hidden;
 }
