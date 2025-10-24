@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo } from 'react';
+import React, { useEffect, useState, useMemo, useCallback } from 'react';
 import './ContentCard.css';
 import { extractChannelIdFromUrl, fetchChannelLogo, resolveHandleOrQuery } from '../utils/channel';
 import { flagForCountryName } from '../utils/flags';
@@ -23,22 +23,58 @@ export default function ContentCard({ data }) {
     name: data['What is the name of your channel?']
   }), [data]);
 
-  // Normalize platforms list from CSV
+  // Platform canonicalization to keep labels consistent
+  const PLATFORM_LABELS = useMemo(() => new Map([
+    ['youtube', 'YouTube'],
+    ['you tube', 'YouTube'],
+    ['yt', 'YouTube'],
+    ['instagram', 'Instagram'],
+    ['ig', 'Instagram'],
+    ['website', 'Website'],
+    ['site', 'Website'],
+    ['web site', 'Website'],
+    ['web', 'Website'],
+    ['www', 'Website'],
+    ['blog', 'Blog'],
+    ['blog/website', 'Website'],
+    ['tiktok', 'TikTok'],
+    ['tik tok', 'TikTok'],
+    ['twitch', 'Twitch'],
+    ['facebook', 'Facebook'],
+    ['fb', 'Facebook'],
+    ['twitter', 'X (Twitter)'],
+    ['x', 'X (Twitter)'],
+    ['x (twitter)', 'X (Twitter)'],
+    ['twitter/x', 'X (Twitter)'],
+    ['threads', 'Threads'],
+    ['reddit', 'Reddit'],
+    ['podcast', 'Podcast'],
+    ['newsletter', 'Newsletter'],
+    ['boardgamegeek', 'BoardGameGeek'],
+    ['board game geek', 'BoardGameGeek'],
+    ['bgg', 'BoardGameGeek'],
+  ]), []);
+
+  const titleCase = (s) => s.replace(/\w\S*/g, (w) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase());
+  const canonicalizePlatform = useCallback((p) => {
+    const key = String(p || '').trim().toLowerCase();
+    return PLATFORM_LABELS.get(key) || titleCase(p);
+  }, [PLATFORM_LABELS]);
+
+  // Normalize platforms list from CSV (split by ;, &, comma) and canonicalize
   const platforms = useMemo(() => {
     const raw = data['What platform is your channel on?'] || '';
     return raw
       .split(/[;,&]/)
       .map(p => p.trim())
-      .filter(Boolean);
-  }, [data]);
+      .filter(Boolean)
+      .map(canonicalizePlatform);
+  }, [data, canonicalizePlatform]);
+  // Deduplicate for rendering and single-platform checks to avoid duplicate keys and SR repetition
+  const uniquePlatforms = useMemo(() => Array.from(new Set(platforms)), [platforms]);
 
-  const isInstagramOnly = useMemo(() => {
-    return platforms.length === 1 && /instagram/i.test(platforms[0]);
-  }, [platforms]);
-
-  const isWebsiteOnly = useMemo(() => {
-    return platforms.length === 1 && /website/i.test(platforms[0]);
-  }, [platforms]);
+  const isInstagramOnly = useMemo(() => uniquePlatforms.length === 1 && uniquePlatforms[0].toLowerCase() === 'instagram', [uniquePlatforms]);
+  const isWebsiteOnly = useMemo(() => uniquePlatforms.length === 1 && uniquePlatforms[0].toLowerCase() === 'website', [uniquePlatforms]);
 
   useEffect(() => {
     let mounted = true;
@@ -106,7 +142,7 @@ export default function ContentCard({ data }) {
             <img src={channelInfo.logo} alt={`${data['What is the name of your channel?']} logo`} className="channel-logo-img" />
           )}
           {!loadingLogo && !isInstagramOnly && !isWebsiteOnly && (!channelInfo || !channelInfo.logo) && (
-            <span className="logo-placeholder">🎬</span>
+            <span className="logo-placeholder" aria-hidden="true">🎬</span>
           )}
           <h3 className="header-channel-title">{data['What is the name of your channel?']}</h3>
         </div>
@@ -128,12 +164,20 @@ export default function ContentCard({ data }) {
         <div className="creator-name-row">
           <h4 className="channel-title">{data['What is your name?']}</h4>
           {channelInfo && channelInfo.subscriberCount && !channelInfo.hiddenSubscriberCount && (
-            <span className="subscriber-count" title={`${channelInfo.subscriberCount.toLocaleString()} subscribers`}>
+            <span
+              className="subscriber-count"
+              title={`${channelInfo.subscriberCount.toLocaleString()} subscribers`}
+              aria-label={`${channelInfo.subscriberCount.toLocaleString()} subscribers`}
+            >
               {formatSubscriberCount(channelInfo.subscriberCount)} subs
             </span>
           )}
           {channelInfo && channelInfo.hiddenSubscriberCount && (
-            <span className="subscriber-count hidden" title="Subscriber count hidden by channel owner">
+            <span
+              className="subscriber-count hidden"
+              title="Subscriber count hidden by channel owner"
+              aria-label="Subscriber count hidden by channel owner"
+            >
               Hidden
             </span>
           )}
@@ -141,17 +185,13 @@ export default function ContentCard({ data }) {
         <a href={data['What is the link to your channel(s)? (If you have multiple channels, add them all using commas to separate them.)']?.split(',')[0]} target="_blank" rel="noopener noreferrer">
           Visit Channel
         </a>
-        <div className="platforms">
-          {(data['What platform is your channel on?'] || '')
-            .split(/[;,&]/)
-            .map(platform => platform.trim())
-            .filter(Boolean)
-            .map(platform => (
-              <span key={platform} className="platform-tag">
-                {platform}
-              </span>
-            ))}
-        </div>
+        <ul className="platforms" aria-label="Platforms">
+          {uniquePlatforms.map(platform => (
+            <li key={platform} className="platform-tag">
+              {platform}
+            </li>
+          ))}
+        </ul>
       </div>
 
       <div className="content-card-details">

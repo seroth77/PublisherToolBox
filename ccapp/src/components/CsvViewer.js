@@ -72,15 +72,17 @@ export default function CsvViewer({ src = '/src/data/data.csv', initialRowsPerPa
   }
 
   if (error) return <div className="csv-error">Error loading CSV: {error}</div>
-  if (!allRows.length) return <div>Loading CSV...</div>
+  if (!allRows.length) return <div role="status" aria-live="polite">Loading CSV...</div>
 
   return (
     <div className="csv-viewer">
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-        <div>Showing rows {page * rowsPerPage + 1} - {Math.min((page + 1) * rowsPerPage, allRows.length)} of {allRows.length}</div>
+        <div role="status" aria-live="polite" aria-atomic="true">
+          Showing rows {page * rowsPerPage + 1} - {Math.min((page + 1) * rowsPerPage, allRows.length)} of {allRows.length}
+        </div>
         <div>
-          Rows per page:{' '}
-          <select value={rowsPerPage} onChange={e => { setRowsPerPage(Number(e.target.value)); setPage(0) }}>
+          <label htmlFor="rows-per-page">Rows per page:</label>{' '}
+          <select id="rows-per-page" value={rowsPerPage} onChange={e => { setRowsPerPage(Number(e.target.value)); setPage(0) }}>
             {[5,10,20,50,100].map(n => <option key={n} value={n}>{n}</option>)}
           </select>
         </div>
@@ -91,7 +93,13 @@ export default function CsvViewer({ src = '/src/data/data.csv', initialRowsPerPa
           <thead>
             <tr>
               {headers.map(h => (
-                <th key={h} style={{ cursor: 'pointer' }} onClick={() => toggleSort(h)}>
+                <th
+                  key={h}
+                  style={{ cursor: 'pointer' }}
+                  onClick={() => toggleSort(h)}
+                  scope="col"
+                  aria-sort={sort.key === h ? (sort.asc ? 'ascending' : 'descending') : 'none'}
+                >
                   {h} {sort.key === h ? (sort.asc ? '▲' : '▼') : ''}
                 </th>
               ))}

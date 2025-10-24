@@ -26,7 +26,8 @@ const countryToCode = {
   'India': 'IN',
   'Brazil': 'BR',
   'Mexico': 'MX',
-  'United Kingdom-England': 'GB'
+  'United Kingdom-England': 'GB',
+  'Scotland': 'GB',
 };
 
 function codeToEmoji(code) {

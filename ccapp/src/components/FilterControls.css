@@ -56,6 +56,13 @@
   padding-right: 8px;
 }
 
+/* Radio group mirrors checkbox layout for consistency */
+.radio-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .checkbox-group::-webkit-scrollbar {
   width: 6px;
 }
@@ -85,6 +92,30 @@
 }
 
 .filter-checkbox input {
+  margin: 0;
+}
+
+/* Radio label shares styling */
+.filter-radio {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.2s;
+  font-size: 0.9rem;
+}
+
+.filter-radio:hover {
+  background: #f0f0f0;
+  border-color: #cbd5e0;
+}
+
+.filter-radio input {
   margin: 0;
 }
 
