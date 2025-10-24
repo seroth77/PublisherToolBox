@@ -13,7 +13,7 @@ function formatSubscriberCount(count) {
   return count.toString();
 }
 
-export default function ContentCard({ data }) {
+export default function ContentCard({ data, designerView = false }) {
   const [channelInfo, setChannelInfo] = useState(null);
   const [loadingLogo, setLoadingLogo] = useState(false);
 
@@ -82,30 +82,29 @@ export default function ContentCard({ data }) {
 
     async function load() {
       const link = channelData.link;
-      
-      // Only make YouTube API calls if the link contains "youtube"
-      if (!link.toLowerCase().includes('youtube')) {
-        return;
-      }
+      const hasYouTubePlatform = uniquePlatforms.includes('YouTube');
+      const linkHasYouTube = link.toLowerCase().includes('youtube');
+      // Only make YouTube API calls if the link is YouTube OR the platforms include YouTube
+      if (!linkHasYouTube && !hasYouTubePlatform) return;
 
       let channelId = extractChannelIdFromUrl(link) || extractChannelIdFromUrl(channelData.name);
 
       try {
         setLoadingLogo(true);
-        
-        // If we have a handle like /@handle or the link contains '@', try resolving
+        // Try resolving from handle in link
         if (!channelId && link.includes('@')) {
           const handle = link.split('@').pop().split(/[/?#]/)[0];
           const resolved = await resolveHandleOrQuery(handle);
           if (resolved && resolved.channelId) channelId = resolved.channelId;
-          else if (resolved && resolved.logo && mounted) {
-            setChannelInfo({ logo: resolved.logo, title: resolved.title, subscriberCount: resolved.subscriberCount });
-            return;
-          }
+        }
+        // As a fallback, try resolving by channel name when platform suggests YouTube
+        if (!channelId && hasYouTubePlatform) {
+          const resolvedByName = await resolveHandleOrQuery(channelData.name);
+          if (resolvedByName && resolvedByName.channelId) channelId = resolvedByName.channelId;
         }
 
         if (!channelId) return;
-        
+
         const info = await fetchChannelLogo(channelId);
         if (mounted && info) {
           setChannelInfo(info);
@@ -125,7 +124,7 @@ export default function ContentCard({ data }) {
       mounted = false;
       abortController.abort();
     };
-  }, [channelData]);
+  }, [channelData, uniquePlatforms]);
 
   return (
     <div className="content-card">
@@ -196,8 +195,12 @@ export default function ContentCard({ data }) {
 
       <div className="content-card-details">
         <p><strong>Content Type:</strong> {data['What type of content do you prefer to cover?']}</p>
-        <p><strong>Prototype Time:</strong> {data['How long do you need with a prototype to produce certain content?']}</p>
-        <p><strong>Paid Content:</strong> {data['Do you charge for content?']}</p>
+        {designerView && (
+          <>
+            <p><strong>Prototype Time:</strong> {data['How long do you need with a prototype to produce certain content?']}</p>
+            <p><strong>Paid Content:</strong> {data['Do you charge for content?']}</p>
+          </>
+        )}
       </div>
 
       <div className="content-card-games">
@@ -206,7 +209,26 @@ export default function ContentCard({ data }) {
       </div>
 
       <div className="content-card-footer">
-        <strong>Contact:</strong> {data['How can a dev contact you?']}
+        <strong>Contact:</strong> {(() => {
+          const contact = data['How can a dev contact you?'] || '';
+          if (!contact) return null;
+          // Split the string and interleave email anchors for any detected addresses
+          const EMAIL_REGEX = /([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/g;
+          const parts = String(contact).split(EMAIL_REGEX);
+          return parts.map((part, idx) => {
+            if (EMAIL_REGEX.test(part)) {
+              // Reset regex lastIndex due to test() with global
+              EMAIL_REGEX.lastIndex = 0;
+              const email = part;
+              return (
+                <a key={`email-${idx}`} href={`mailto:${email}`} aria-label={`Email ${email}`}>
+                  {email}
+                </a>
+              );
+            }
+            return <span key={`txt-${idx}`}>{part}</span>;
+          });
+        })()}
       </div>
     </div>
   );

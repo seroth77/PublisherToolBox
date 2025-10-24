@@ -10,10 +10,12 @@ export default function FilterControls({
   selectedCountries,
   paidContentFilter,
   sortOption,
+  designerView,
   onPlatformToggle,
   onCountryToggle,
   onPaidContentChange,
   onSortChange,
+  onDesignerViewChange,
   onClearFilters,
   totalResults,
   filteredCount
@@ -68,38 +70,57 @@ export default function FilterControls({
           </div>
         </div>
 
+        {designerView && (
+          <div className="filter-group">
+            <h3 id="content-type-heading">Content Type</h3>
+            <div className="radio-group" role="radiogroup" aria-labelledby="content-type-heading">
+              <label className="filter-radio">
+                <input
+                  type="radio"
+                  name="content-type"
+                  value="all"
+                  checked={paidContentFilter === 'all'}
+                  onChange={(e) => onPaidContentChange(e.target.value)}
+                />
+                All Content Types
+              </label>
+              <label className="filter-radio">
+                <input
+                  type="radio"
+                  name="content-type"
+                  value="free"
+                  checked={paidContentFilter === 'free'}
+                  onChange={(e) => onPaidContentChange(e.target.value)}
+                />
+                Free Content Only
+              </label>
+              <label className="filter-radio">
+                <input
+                  type="radio"
+                  name="content-type"
+                  value="paid"
+                  checked={paidContentFilter === 'paid'}
+                  onChange={(e) => onPaidContentChange(e.target.value)}
+                />
+                Paid Content Available
+              </label>
+            </div>
+          </div>
+        )}
+
         <div className="filter-group">
-          <h3 id="content-type-heading">Content Type</h3>
-          <div className="radio-group" role="radiogroup" aria-labelledby="content-type-heading">
-            <label className="filter-radio">
+          <h3 id="designer-view-heading">Designer View</h3>
+          <div role="group" aria-labelledby="designer-view-heading">
+            <label className="switch">
               <input
-                type="radio"
-                name="content-type"
-                value="all"
-                checked={paidContentFilter === 'all'}
-                onChange={(e) => onPaidContentChange(e.target.value)}
+                type="checkbox"
+                role="switch"
+                aria-checked={designerView}
+                checked={designerView}
+                onChange={(e) => onDesignerViewChange(e.target.checked)}
               />
-              All Content Types
-            </label>
-            <label className="filter-radio">
-              <input
-                type="radio"
-                name="content-type"
-                value="free"
-                checked={paidContentFilter === 'free'}
-                onChange={(e) => onPaidContentChange(e.target.value)}
-              />
-              Free Content Only
-            </label>
-            <label className="filter-radio">
-              <input
-                type="radio"
-                name="content-type"
-                value="paid"
-                checked={paidContentFilter === 'paid'}
-                onChange={(e) => onPaidContentChange(e.target.value)}
-              />
-              Paid Content Available
+              <span className="switch-slider" aria-hidden="true"></span>
+              <span className="switch-label">Designer view</span>
             </label>
           </div>
         </div>
@@ -125,7 +146,7 @@ export default function FilterControls({
         <button 
           onClick={onClearFilters}
           className="clear-filters-btn"
-          disabled={!search && !selectedPlatforms.length && !selectedCountries.length && paidContentFilter === 'all'}
+          disabled={!search && !selectedPlatforms.length && !selectedCountries.length && (designerView ? paidContentFilter === 'all' : true)}
         >
           Clear All Filters
         </button>

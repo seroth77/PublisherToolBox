@@ -834,7 +834,7 @@
     }
   },
   "query:slickerdrips": {
-    "ts": 1761327787878,
+    "ts": 1761329327751,
     "value": {
       "channelId": "UCmtyR1piEzGwYR5cfHo_VTQ",
       "title": "slickerdrips",
@@ -942,7 +942,7 @@
     }
   },
   "query:@slickerdrips": {
-    "ts": 1761327787878,
+    "ts": 1761329327751,
     "value": {
       "channelId": "UCmtyR1piEzGwYR5cfHo_VTQ",
       "title": "slickerdrips",
@@ -990,7 +990,7 @@
     }
   },
   "query:@ITEACHHERSHEWINS": {
-    "ts": 1761327787569,
+    "ts": 1761329327441,
     "value": {
       "channelId": "UCgqHBsxsPnetWoLfwNJrdyQ",
       "title": "I TEACH HER SHE WINS",
@@ -1037,7 +1037,7 @@
     }
   },
   "query:ITEACHHERSHEWINS": {
-    "ts": 1761327787569,
+    "ts": 1761329327441,
     "value": {
       "channelId": "UCgqHBsxsPnetWoLfwNJrdyQ",
       "title": "I TEACH HER SHE WINS",
@@ -1144,7 +1144,7 @@
     }
   },
   "query:@learntoplaygames": {
-    "ts": 1761327787877,
+    "ts": 1761329327443,
     "value": {
       "channelId": "UCdIi9YZRjYjU1MdrrpJ0wFg",
       "title": "Learn to Play Games",
@@ -1192,7 +1192,7 @@
     }
   },
   "query:learntoplaygames": {
-    "ts": 1761327787877,
+    "ts": 1761329327443,
     "value": {
       "channelId": "UCdIi9YZRjYjU1MdrrpJ0wFg",
       "title": "Learn to Play Games",
@@ -1293,6 +1293,1092 @@
               "subscriberCount": "17100",
               "hiddenSubscriberCount": false,
               "videoCount": "849"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:@Achunkeemunkee": {
+    "ts": 1761329327135,
+    "value": {
+      "channelId": "UC05QkXxWwxlRpu3HtCLoknQ",
+      "title": "Achunkeemunkee",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_n0vqdXesqjAf-6zU2FfqT5MXxzJuFRC6cIkXv-8tYHZg=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "P3ZLHFHn0cEHE6Wm6FKzZWihJHA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "7bZl88snkOdyLpiEzcOkxbj_U6Q",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UC05QkXxWwxlRpu3HtCLoknQ"
+            },
+            "snippet": {
+              "publishedAt": "2016-07-21T01:10:29Z",
+              "channelId": "UC05QkXxWwxlRpu3HtCLoknQ",
+              "title": "Achunkeemunkee",
+              "description": "Geeky gamer and foodie adventurer ! Boardgame bits & organizers are my love language. DM for collabs!",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_n0vqdXesqjAf-6zU2FfqT5MXxzJuFRC6cIkXv-8tYHZg=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_n0vqdXesqjAf-6zU2FfqT5MXxzJuFRC6cIkXv-8tYHZg=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_n0vqdXesqjAf-6zU2FfqT5MXxzJuFRC6cIkXv-8tYHZg=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Achunkeemunkee",
+              "liveBroadcastContent": "none",
+              "publishTime": "2016-07-21T01:10:29Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:Achunkeemunkee": {
+    "ts": 1761329327135,
+    "value": {
+      "channelId": "UC05QkXxWwxlRpu3HtCLoknQ",
+      "title": "Achunkeemunkee",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_n0vqdXesqjAf-6zU2FfqT5MXxzJuFRC6cIkXv-8tYHZg=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "P3ZLHFHn0cEHE6Wm6FKzZWihJHA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "7bZl88snkOdyLpiEzcOkxbj_U6Q",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UC05QkXxWwxlRpu3HtCLoknQ"
+            },
+            "snippet": {
+              "publishedAt": "2016-07-21T01:10:29Z",
+              "channelId": "UC05QkXxWwxlRpu3HtCLoknQ",
+              "title": "Achunkeemunkee",
+              "description": "Geeky gamer and foodie adventurer ! Boardgame bits & organizers are my love language. DM for collabs!",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_n0vqdXesqjAf-6zU2FfqT5MXxzJuFRC6cIkXv-8tYHZg=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_n0vqdXesqjAf-6zU2FfqT5MXxzJuFRC6cIkXv-8tYHZg=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_n0vqdXesqjAf-6zU2FfqT5MXxzJuFRC6cIkXv-8tYHZg=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Achunkeemunkee",
+              "liveBroadcastContent": "none",
+              "publishTime": "2016-07-21T01:10:29Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:@Boar Gamer": {
+    "ts": 1761329327350,
+    "value": {
+      "channelId": "UCMt4_PREYAZN3F9qFGT2bOA",
+      "title": "@Boar gaming",
+      "logo": "https://yt3.ggpht.com/qdij5PWdIgoQufAeNSVz17lY4IcR5B5Cfv2VeacUdGSDn2ZOwaJ-pRPVU8VmB6oNrLQi_oHeBQ=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "lArDMARDxh_qtDGDMqQowDi8pd8",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 27,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "a6V-E4E4drJjg2xghnQ0GI38fPM",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCMt4_PREYAZN3F9qFGT2bOA"
+            },
+            "snippet": {
+              "publishedAt": "2020-08-07T13:55:01Z",
+              "channelId": "UCMt4_PREYAZN3F9qFGT2bOA",
+              "title": "@Boar gaming",
+              "description": "hey guys welcome to my channel  . my dream is 100000 subs please subscribe to my channel I am working hard to get 100 ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/qdij5PWdIgoQufAeNSVz17lY4IcR5B5Cfv2VeacUdGSDn2ZOwaJ-pRPVU8VmB6oNrLQi_oHeBQ=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/qdij5PWdIgoQufAeNSVz17lY4IcR5B5Cfv2VeacUdGSDn2ZOwaJ-pRPVU8VmB6oNrLQi_oHeBQ=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/qdij5PWdIgoQufAeNSVz17lY4IcR5B5Cfv2VeacUdGSDn2ZOwaJ-pRPVU8VmB6oNrLQi_oHeBQ=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "@Boar gaming",
+              "liveBroadcastContent": "none",
+              "publishTime": "2020-08-07T13:55:01Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:Boar Gamer": {
+    "ts": 1761329327350,
+    "value": {
+      "channelId": "UCMt4_PREYAZN3F9qFGT2bOA",
+      "title": "@Boar gaming",
+      "logo": "https://yt3.ggpht.com/qdij5PWdIgoQufAeNSVz17lY4IcR5B5Cfv2VeacUdGSDn2ZOwaJ-pRPVU8VmB6oNrLQi_oHeBQ=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "lArDMARDxh_qtDGDMqQowDi8pd8",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 27,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "a6V-E4E4drJjg2xghnQ0GI38fPM",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCMt4_PREYAZN3F9qFGT2bOA"
+            },
+            "snippet": {
+              "publishedAt": "2020-08-07T13:55:01Z",
+              "channelId": "UCMt4_PREYAZN3F9qFGT2bOA",
+              "title": "@Boar gaming",
+              "description": "hey guys welcome to my channel  . my dream is 100000 subs please subscribe to my channel I am working hard to get 100 ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/qdij5PWdIgoQufAeNSVz17lY4IcR5B5Cfv2VeacUdGSDn2ZOwaJ-pRPVU8VmB6oNrLQi_oHeBQ=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/qdij5PWdIgoQufAeNSVz17lY4IcR5B5Cfv2VeacUdGSDn2ZOwaJ-pRPVU8VmB6oNrLQi_oHeBQ=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/qdij5PWdIgoQufAeNSVz17lY4IcR5B5Cfv2VeacUdGSDn2ZOwaJ-pRPVU8VmB6oNrLQi_oHeBQ=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "@Boar gaming",
+              "liveBroadcastContent": "none",
+              "publishTime": "2020-08-07T13:55:01Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:@Gideon's Gaming": {
+    "ts": 1761329327440,
+    "value": {
+      "channelId": "UCLL5dVnel0uRX3aiyVXQYkw",
+      "title": "TheGideonGames",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_mxmZvf5vi5SgqqSzWVJdwww_MBnY7bNoqDauBgUQ3MLII=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "mbeol4IQnIq6FOp33vbXsehC4T4",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 13,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "xwnS4_5ifxxkbYgod0JFWC2YESA",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCLL5dVnel0uRX3aiyVXQYkw"
+            },
+            "snippet": {
+              "publishedAt": "2012-11-22T10:22:08Z",
+              "channelId": "UCLL5dVnel0uRX3aiyVXQYkw",
+              "title": "TheGideonGames",
+              "description": "Доброго! Мой ник - Гидеон и я обожаю играть в игры! Какие? Да самые разные! Люблю новинки и стараюсь проходить их ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mxmZvf5vi5SgqqSzWVJdwww_MBnY7bNoqDauBgUQ3MLII=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mxmZvf5vi5SgqqSzWVJdwww_MBnY7bNoqDauBgUQ3MLII=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mxmZvf5vi5SgqqSzWVJdwww_MBnY7bNoqDauBgUQ3MLII=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "TheGideonGames",
+              "liveBroadcastContent": "none",
+              "publishTime": "2012-11-22T10:22:08Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:Gideon's Gaming": {
+    "ts": 1761329327440,
+    "value": {
+      "channelId": "UCLL5dVnel0uRX3aiyVXQYkw",
+      "title": "TheGideonGames",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_mxmZvf5vi5SgqqSzWVJdwww_MBnY7bNoqDauBgUQ3MLII=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "mbeol4IQnIq6FOp33vbXsehC4T4",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 13,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "xwnS4_5ifxxkbYgod0JFWC2YESA",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCLL5dVnel0uRX3aiyVXQYkw"
+            },
+            "snippet": {
+              "publishedAt": "2012-11-22T10:22:08Z",
+              "channelId": "UCLL5dVnel0uRX3aiyVXQYkw",
+              "title": "TheGideonGames",
+              "description": "Доброго! Мой ник - Гидеон и я обожаю играть в игры! Какие? Да самые разные! Люблю новинки и стараюсь проходить их ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mxmZvf5vi5SgqqSzWVJdwww_MBnY7bNoqDauBgUQ3MLII=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mxmZvf5vi5SgqqSzWVJdwww_MBnY7bNoqDauBgUQ3MLII=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mxmZvf5vi5SgqqSzWVJdwww_MBnY7bNoqDauBgUQ3MLII=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "TheGideonGames",
+              "liveBroadcastContent": "none",
+              "publishTime": "2012-11-22T10:22:08Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:@Panda8ngel": {
+    "ts": 1761329327443,
+    "value": {
+      "channelId": "UC7cxoc4F5p98AadwAyTpKBA",
+      "title": "Amanda Panda",
+      "logo": "https://yt3.ggpht.com/g_8WNn0ZuqQzONvSMueZrqRAnpgliNppE_Ee9HVL56s3TXcFxN3AAvWrB9jINnudHX_Fq-fQ=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "BSmvWAOhGUQjgj_2qdaNt6C3lFk",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 3,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "c0EJXNTFs0dQ1ZiP0YEiYaS1_To",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UC7cxoc4F5p98AadwAyTpKBA"
+            },
+            "snippet": {
+              "publishedAt": "2011-10-11T02:59:46Z",
+              "channelId": "UC7cxoc4F5p98AadwAyTpKBA",
+              "title": "Amanda Panda",
+              "description": "I am an analog and digital board game live twitch streamer who loves to spread joy through teaching and playing games solo, ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/g_8WNn0ZuqQzONvSMueZrqRAnpgliNppE_Ee9HVL56s3TXcFxN3AAvWrB9jINnudHX_Fq-fQ=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/g_8WNn0ZuqQzONvSMueZrqRAnpgliNppE_Ee9HVL56s3TXcFxN3AAvWrB9jINnudHX_Fq-fQ=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/g_8WNn0ZuqQzONvSMueZrqRAnpgliNppE_Ee9HVL56s3TXcFxN3AAvWrB9jINnudHX_Fq-fQ=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Amanda Panda",
+              "liveBroadcastContent": "none",
+              "publishTime": "2011-10-11T02:59:46Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:Panda8ngel": {
+    "ts": 1761329327443,
+    "value": {
+      "channelId": "UC7cxoc4F5p98AadwAyTpKBA",
+      "title": "Amanda Panda",
+      "logo": "https://yt3.ggpht.com/g_8WNn0ZuqQzONvSMueZrqRAnpgliNppE_Ee9HVL56s3TXcFxN3AAvWrB9jINnudHX_Fq-fQ=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "BSmvWAOhGUQjgj_2qdaNt6C3lFk",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 3,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "c0EJXNTFs0dQ1ZiP0YEiYaS1_To",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UC7cxoc4F5p98AadwAyTpKBA"
+            },
+            "snippet": {
+              "publishedAt": "2011-10-11T02:59:46Z",
+              "channelId": "UC7cxoc4F5p98AadwAyTpKBA",
+              "title": "Amanda Panda",
+              "description": "I am an analog and digital board game live twitch streamer who loves to spread joy through teaching and playing games solo, ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/g_8WNn0ZuqQzONvSMueZrqRAnpgliNppE_Ee9HVL56s3TXcFxN3AAvWrB9jINnudHX_Fq-fQ=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/g_8WNn0ZuqQzONvSMueZrqRAnpgliNppE_Ee9HVL56s3TXcFxN3AAvWrB9jINnudHX_Fq-fQ=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/g_8WNn0ZuqQzONvSMueZrqRAnpgliNppE_Ee9HVL56s3TXcFxN3AAvWrB9jINnudHX_Fq-fQ=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Amanda Panda",
+              "liveBroadcastContent": "none",
+              "publishTime": "2011-10-11T02:59:46Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:@Settler of the Boards": {
+    "ts": 1761329327659,
+    "value": {
+      "channelId": "UCfRLovfwrF0IuXN4D17-Z_A",
+      "title": "Settler of the Boards",
+      "logo": "https://yt3.ggpht.com/jfaGop0vFshDA0uZzMX0XfbAfUX3C7d-k7V4P2SMuFRABeNmwcTF0l9XsXgRLxYdY4csUEiKwSc=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "7Te0ikOijNcxZSeUFJtlool0ElY",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 43,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "sevBSMVsAFcW3L6-l8-_PjATtQs",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCfRLovfwrF0IuXN4D17-Z_A"
+            },
+            "snippet": {
+              "publishedAt": "2020-05-27T00:45:22Z",
+              "channelId": "UCfRLovfwrF0IuXN4D17-Z_A",
+              "title": "Settler of the Boards",
+              "description": "Unboxings, reviews, and shorts all about board games! Check out my website to read more.",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/jfaGop0vFshDA0uZzMX0XfbAfUX3C7d-k7V4P2SMuFRABeNmwcTF0l9XsXgRLxYdY4csUEiKwSc=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/jfaGop0vFshDA0uZzMX0XfbAfUX3C7d-k7V4P2SMuFRABeNmwcTF0l9XsXgRLxYdY4csUEiKwSc=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/jfaGop0vFshDA0uZzMX0XfbAfUX3C7d-k7V4P2SMuFRABeNmwcTF0l9XsXgRLxYdY4csUEiKwSc=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Settler of the Boards",
+              "liveBroadcastContent": "none",
+              "publishTime": "2020-05-27T00:45:22Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:Settler of the Boards": {
+    "ts": 1761329327659,
+    "value": {
+      "channelId": "UCfRLovfwrF0IuXN4D17-Z_A",
+      "title": "Settler of the Boards",
+      "logo": "https://yt3.ggpht.com/jfaGop0vFshDA0uZzMX0XfbAfUX3C7d-k7V4P2SMuFRABeNmwcTF0l9XsXgRLxYdY4csUEiKwSc=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "7Te0ikOijNcxZSeUFJtlool0ElY",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 43,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "sevBSMVsAFcW3L6-l8-_PjATtQs",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCfRLovfwrF0IuXN4D17-Z_A"
+            },
+            "snippet": {
+              "publishedAt": "2020-05-27T00:45:22Z",
+              "channelId": "UCfRLovfwrF0IuXN4D17-Z_A",
+              "title": "Settler of the Boards",
+              "description": "Unboxings, reviews, and shorts all about board games! Check out my website to read more.",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/jfaGop0vFshDA0uZzMX0XfbAfUX3C7d-k7V4P2SMuFRABeNmwcTF0l9XsXgRLxYdY4csUEiKwSc=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/jfaGop0vFshDA0uZzMX0XfbAfUX3C7d-k7V4P2SMuFRABeNmwcTF0l9XsXgRLxYdY4csUEiKwSc=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/jfaGop0vFshDA0uZzMX0XfbAfUX3C7d-k7V4P2SMuFRABeNmwcTF0l9XsXgRLxYdY4csUEiKwSc=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Settler of the Boards",
+              "liveBroadcastContent": "none",
+              "publishTime": "2020-05-27T00:45:22Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:@Tabletop Bellhop": {
+    "ts": 1761329327752,
+    "value": {
+      "channelId": "UCez3_cu7peTRAcb1ZJF4j5A",
+      "title": "Tabletop Bellhop",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_lGF4AbwVZedKeNeAj205ylpaw94pMBF777zWfOq1JJvQ=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "Z4XY51U95tSefY_VndUG-lsUr58",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 2,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "Bzdk5jjFihYufIo16J3I9tUxMfM",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCez3_cu7peTRAcb1ZJF4j5A"
+            },
+            "snippet": {
+              "publishedAt": "2018-07-21T14:27:36Z",
+              "channelId": "UCez3_cu7peTRAcb1ZJF4j5A",
+              "title": "Tabletop Bellhop",
+              "description": "Welcome to The Tabletop Bellhop YouTube Channel. Let us be your Cardboard Concierge, working with you to make your game ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lGF4AbwVZedKeNeAj205ylpaw94pMBF777zWfOq1JJvQ=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lGF4AbwVZedKeNeAj205ylpaw94pMBF777zWfOq1JJvQ=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lGF4AbwVZedKeNeAj205ylpaw94pMBF777zWfOq1JJvQ=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Tabletop Bellhop",
+              "liveBroadcastContent": "none",
+              "publishTime": "2018-07-21T14:27:36Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:Tabletop Bellhop": {
+    "ts": 1761329327752,
+    "value": {
+      "channelId": "UCez3_cu7peTRAcb1ZJF4j5A",
+      "title": "Tabletop Bellhop",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_lGF4AbwVZedKeNeAj205ylpaw94pMBF777zWfOq1JJvQ=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "Z4XY51U95tSefY_VndUG-lsUr58",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 2,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "Bzdk5jjFihYufIo16J3I9tUxMfM",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCez3_cu7peTRAcb1ZJF4j5A"
+            },
+            "snippet": {
+              "publishedAt": "2018-07-21T14:27:36Z",
+              "channelId": "UCez3_cu7peTRAcb1ZJF4j5A",
+              "title": "Tabletop Bellhop",
+              "description": "Welcome to The Tabletop Bellhop YouTube Channel. Let us be your Cardboard Concierge, working with you to make your game ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lGF4AbwVZedKeNeAj205ylpaw94pMBF777zWfOq1JJvQ=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lGF4AbwVZedKeNeAj205ylpaw94pMBF777zWfOq1JJvQ=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lGF4AbwVZedKeNeAj205ylpaw94pMBF777zWfOq1JJvQ=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Tabletop Bellhop",
+              "liveBroadcastContent": "none",
+              "publishTime": "2018-07-21T14:27:36Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:@Rolling Dice & Taking Names": {
+    "ts": 1761329327443,
+    "value": {
+      "channelId": "UCgqyOLauu_d4oH_IROMfOJw",
+      "title": "Rolling Dice & Taking Names",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_lIX5mSfqU097OMkRltgGOeexSRaSbasvjy6dQY7ZBXWPg=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "TEaLY46UpIwDIWxgiNLDVii3VEA",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 16012,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "gekN0Dy6V_MorLsKW29aej6trxc",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCgqyOLauu_d4oH_IROMfOJw"
+            },
+            "snippet": {
+              "publishedAt": "2013-04-01T11:23:34Z",
+              "channelId": "UCgqyOLauu_d4oH_IROMfOJw",
+              "title": "Rolling Dice & Taking Names",
+              "description": "Rolling Dice & Taking Names is a show where two long time friends discuss the board game hobby including reviews, previews ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lIX5mSfqU097OMkRltgGOeexSRaSbasvjy6dQY7ZBXWPg=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lIX5mSfqU097OMkRltgGOeexSRaSbasvjy6dQY7ZBXWPg=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lIX5mSfqU097OMkRltgGOeexSRaSbasvjy6dQY7ZBXWPg=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Rolling Dice & Taking Names",
+              "liveBroadcastContent": "none",
+              "publishTime": "2013-04-01T11:23:34Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "query:Rolling Dice & Taking Names": {
+    "ts": 1761329327443,
+    "value": {
+      "channelId": "UCgqyOLauu_d4oH_IROMfOJw",
+      "title": "Rolling Dice & Taking Names",
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_lIX5mSfqU097OMkRltgGOeexSRaSbasvjy6dQY7ZBXWPg=s88-c-k-c0xffffffff-no-rj-mo",
+      "raw": {
+        "kind": "youtube#searchListResponse",
+        "etag": "TEaLY46UpIwDIWxgiNLDVii3VEA",
+        "nextPageToken": "CAEQAA",
+        "regionCode": "US",
+        "pageInfo": {
+          "totalResults": 16012,
+          "resultsPerPage": 1
+        },
+        "items": [
+          {
+            "kind": "youtube#searchResult",
+            "etag": "gekN0Dy6V_MorLsKW29aej6trxc",
+            "id": {
+              "kind": "youtube#channel",
+              "channelId": "UCgqyOLauu_d4oH_IROMfOJw"
+            },
+            "snippet": {
+              "publishedAt": "2013-04-01T11:23:34Z",
+              "channelId": "UCgqyOLauu_d4oH_IROMfOJw",
+              "title": "Rolling Dice & Taking Names",
+              "description": "Rolling Dice & Taking Names is a show where two long time friends discuss the board game hobby including reviews, previews ...",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lIX5mSfqU097OMkRltgGOeexSRaSbasvjy6dQY7ZBXWPg=s88-c-k-c0xffffffff-no-rj-mo"
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lIX5mSfqU097OMkRltgGOeexSRaSbasvjy6dQY7ZBXWPg=s240-c-k-c0xffffffff-no-rj-mo"
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lIX5mSfqU097OMkRltgGOeexSRaSbasvjy6dQY7ZBXWPg=s800-c-k-c0xffffffff-no-rj-mo"
+                }
+              },
+              "channelTitle": "Rolling Dice & Taking Names",
+              "liveBroadcastContent": "none",
+              "publishTime": "2013-04-01T11:23:34Z"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UC05QkXxWwxlRpu3HtCLoknQ": {
+    "ts": 1761329132762,
+    "value": {
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_n0vqdXesqjAf-6zU2FfqT5MXxzJuFRC6cIkXv-8tYHZg=s88-c-k-c0x00ffffff-no-rj",
+      "title": "Achunkeemunkee",
+      "subscriberCount": 64,
+      "hiddenSubscriberCount": false,
+      "viewCount": 51489,
+      "videoCount": 97,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "xbwHb9CybV02zSXVd-pqrY_sw94",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "jRd0qIXu-S6ZSN2gQWFWwOyVUBo",
+            "id": "UC05QkXxWwxlRpu3HtCLoknQ",
+            "snippet": {
+              "title": "Achunkeemunkee",
+              "description": "Geeky gamer 🎲🎮 and foodie adventurer 🍱🍹! \nBoardgame bits & organizers are my love language. 💖🤩\n📬 DM for collabs! 😊🐵\n⭐️ BGG: achunkeemunkee\n",
+              "customUrl": "@achunkeemunkee",
+              "publishedAt": "2016-07-21T01:10:29Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_n0vqdXesqjAf-6zU2FfqT5MXxzJuFRC6cIkXv-8tYHZg=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_n0vqdXesqjAf-6zU2FfqT5MXxzJuFRC6cIkXv-8tYHZg=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_n0vqdXesqjAf-6zU2FfqT5MXxzJuFRC6cIkXv-8tYHZg=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "Achunkeemunkee",
+                "description": "Geeky gamer 🎲🎮 and foodie adventurer 🍱🍹! \nBoardgame bits & organizers are my love language. 💖🤩\n📬 DM for collabs! 😊🐵\n⭐️ BGG: achunkeemunkee\n"
+              }
+            },
+            "statistics": {
+              "viewCount": "51489",
+              "subscriberCount": "64",
+              "hiddenSubscriberCount": false,
+              "videoCount": "97"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UCMt4_PREYAZN3F9qFGT2bOA": {
+    "ts": 1761329132840,
+    "value": {
+      "logo": "https://yt3.ggpht.com/qdij5PWdIgoQufAeNSVz17lY4IcR5B5Cfv2VeacUdGSDn2ZOwaJ-pRPVU8VmB6oNrLQi_oHeBQ=s88-c-k-c0x00ffffff-no-rj",
+      "title": "@Boar gaming",
+      "subscriberCount": 54,
+      "hiddenSubscriberCount": false,
+      "viewCount": 30825,
+      "videoCount": 34,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "3WD6Lvj8EEiuGok04UCl3UuMRjo",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "vCr29c32VBVg-9wpVgBZ4eG7uvc",
+            "id": "UCMt4_PREYAZN3F9qFGT2bOA",
+            "snippet": {
+              "title": "@Boar gaming",
+              "description": "hey  guys welcome to my channel🤗.\nmy dream is 100,000 subs\nplease subscribe to my channel \nI am working hard to get 100 subscribers 🥺\nplease support me 🙏🥺🥺🥺\nIf you want a gaming channel \nThen this is your pitch🔥🔥",
+              "customUrl": "@boargaming7149",
+              "publishedAt": "2020-08-07T13:55:01.126153Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/qdij5PWdIgoQufAeNSVz17lY4IcR5B5Cfv2VeacUdGSDn2ZOwaJ-pRPVU8VmB6oNrLQi_oHeBQ=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/qdij5PWdIgoQufAeNSVz17lY4IcR5B5Cfv2VeacUdGSDn2ZOwaJ-pRPVU8VmB6oNrLQi_oHeBQ=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/qdij5PWdIgoQufAeNSVz17lY4IcR5B5Cfv2VeacUdGSDn2ZOwaJ-pRPVU8VmB6oNrLQi_oHeBQ=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "@Boar gaming",
+                "description": "hey  guys welcome to my channel🤗.\nmy dream is 100,000 subs\nplease subscribe to my channel \nI am working hard to get 100 subscribers 🥺\nplease support me 🙏🥺🥺🥺\nIf you want a gaming channel \nThen this is your pitch🔥🔥"
+              }
+            },
+            "statistics": {
+              "viewCount": "30825",
+              "subscriberCount": "54",
+              "hiddenSubscriberCount": false,
+              "videoCount": "34"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UCLL5dVnel0uRX3aiyVXQYkw": {
+    "ts": 1761329132863,
+    "value": {
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_mxmZvf5vi5SgqqSzWVJdwww_MBnY7bNoqDauBgUQ3MLII=s88-c-k-c0x00ffffff-no-rj",
+      "title": "TheGideonGames",
+      "subscriberCount": 1800000,
+      "hiddenSubscriberCount": false,
+      "viewCount": 745711573,
+      "videoCount": 5839,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "JjM1MWNJSJZTHTMnh8hjZeD0zgI",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "1VqvuT7Xx-B-0uHpEyrIM92e96c",
+            "id": "UCLL5dVnel0uRX3aiyVXQYkw",
+            "snippet": {
+              "title": "TheGideonGames",
+              "description": "✌ Доброго! Мой ник - Гидеон и я обожаю играть в игры! Какие? Да самые разные! Люблю новинки и стараюсь проходить их как можно быстрее и в самом лучшем качестве. Стараюсь не материться и вести контент фэмили френдли, но на всякий случай возрастной ценз 14+. Доброта и позитив - два столпа моего творчества! Надеюсь, ты останешься доволен(на). ☕\n\nРеклама: thegideongames@gmail.com\n\n💥Оборудование:\nПишу: OBS + Avermedia Live Gamer 4K.\nРендерю: Sony Vegas pro 20.\nМикрофон: Elgato Wave DX + GO XLR.\nВебка: Logitech C920\nИгровой комп: Ryzen 9 5950x @autoOC, RTX 4090, 64 ram @3600mhz.\nСтриминг комп: Ryzen 5 5600X @autoOC, RTX 2060, 16 ram @3000mhz.\n\nStock photo\\png authors:\nhttps://pngtree.com/freepng/brush-texture_5054128.html\n\nРКН Регистрация: https://knd.gov.ru/license?id=67890f7d8f8bd4206f8b466b&registryType=bloggersPermission\n",
+              "customUrl": "@thegideongames",
+              "publishedAt": "2012-11-22T10:22:08Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mxmZvf5vi5SgqqSzWVJdwww_MBnY7bNoqDauBgUQ3MLII=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mxmZvf5vi5SgqqSzWVJdwww_MBnY7bNoqDauBgUQ3MLII=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_mxmZvf5vi5SgqqSzWVJdwww_MBnY7bNoqDauBgUQ3MLII=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "TheGideonGames",
+                "description": "✌ Доброго! Мой ник - Гидеон и я обожаю играть в игры! Какие? Да самые разные! Люблю новинки и стараюсь проходить их как можно быстрее и в самом лучшем качестве. Стараюсь не материться и вести контент фэмили френдли, но на всякий случай возрастной ценз 14+. Доброта и позитив - два столпа моего творчества! Надеюсь, ты останешься доволен(на). ☕\n\nРеклама: thegideongames@gmail.com\n\n💥Оборудование:\nПишу: OBS + Avermedia Live Gamer 4K.\nРендерю: Sony Vegas pro 20.\nМикрофон: Elgato Wave DX + GO XLR.\nВебка: Logitech C920\nИгровой комп: Ryzen 9 5950x @autoOC, RTX 4090, 64 ram @3600mhz.\nСтриминг комп: Ryzen 5 5600X @autoOC, RTX 2060, 16 ram @3000mhz.\n\nStock photo\\png authors:\nhttps://pngtree.com/freepng/brush-texture_5054128.html\n\nРКН Регистрация: https://knd.gov.ru/license?id=67890f7d8f8bd4206f8b466b&registryType=bloggersPermission\n"
+              },
+              "country": "RU"
+            },
+            "statistics": {
+              "viewCount": "745711573",
+              "subscriberCount": "1800000",
+              "hiddenSubscriberCount": false,
+              "videoCount": "5839"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UC7cxoc4F5p98AadwAyTpKBA": {
+    "ts": 1761329133127,
+    "value": {
+      "logo": "https://yt3.ggpht.com/g_8WNn0ZuqQzONvSMueZrqRAnpgliNppE_Ee9HVL56s3TXcFxN3AAvWrB9jINnudHX_Fq-fQ=s88-c-k-c0x00ffffff-no-rj",
+      "title": "Amanda Panda",
+      "subscriberCount": 211,
+      "hiddenSubscriberCount": false,
+      "viewCount": 48606,
+      "videoCount": 181,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "w3nVQdDoYDvIvPoKGl5KgC__-Oc",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "9GOCnn9QDXDzmfsIcNVw-AmOi4w",
+            "id": "UC7cxoc4F5p98AadwAyTpKBA",
+            "snippet": {
+              "title": "Amanda Panda",
+              "description": "I am an analog and digital board game live twitch streamer who loves to spread joy through teaching and playing games solo, with guests, and with the audience. I sometimes will play video games or do arts and crafts on stream. I believe when we have more diverse voices, we get more creativity and better games.",
+              "customUrl": "@panda8ngel",
+              "publishedAt": "2011-10-11T02:59:46Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/g_8WNn0ZuqQzONvSMueZrqRAnpgliNppE_Ee9HVL56s3TXcFxN3AAvWrB9jINnudHX_Fq-fQ=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/g_8WNn0ZuqQzONvSMueZrqRAnpgliNppE_Ee9HVL56s3TXcFxN3AAvWrB9jINnudHX_Fq-fQ=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/g_8WNn0ZuqQzONvSMueZrqRAnpgliNppE_Ee9HVL56s3TXcFxN3AAvWrB9jINnudHX_Fq-fQ=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "Amanda Panda",
+                "description": "I am an analog and digital board game live twitch streamer who loves to spread joy through teaching and playing games solo, with guests, and with the audience. I sometimes will play video games or do arts and crafts on stream. I believe when we have more diverse voices, we get more creativity and better games."
+              }
+            },
+            "statistics": {
+              "viewCount": "48606",
+              "subscriberCount": "211",
+              "hiddenSubscriberCount": false,
+              "videoCount": "181"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UCfRLovfwrF0IuXN4D17-Z_A": {
+    "ts": 1761329133537,
+    "value": {
+      "logo": "https://yt3.ggpht.com/jfaGop0vFshDA0uZzMX0XfbAfUX3C7d-k7V4P2SMuFRABeNmwcTF0l9XsXgRLxYdY4csUEiKwSc=s88-c-k-c0x00ffffff-no-rj",
+      "title": "Settler of the Boards",
+      "subscriberCount": 288,
+      "hiddenSubscriberCount": false,
+      "viewCount": 64217,
+      "videoCount": 663,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "u7gLf4QXuJVTu4xupnn0_gpZ3Co",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "C1y6McDaOmpcc3hNWuXwjN0RQ8Q",
+            "id": "UCfRLovfwrF0IuXN4D17-Z_A",
+            "snippet": {
+              "title": "Settler of the Boards",
+              "description": "Unboxings, reviews, and shorts all about board games! Check out my website to read more. ",
+              "customUrl": "@settleroftheboards",
+              "publishedAt": "2020-05-27T00:45:22.055206Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/jfaGop0vFshDA0uZzMX0XfbAfUX3C7d-k7V4P2SMuFRABeNmwcTF0l9XsXgRLxYdY4csUEiKwSc=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/jfaGop0vFshDA0uZzMX0XfbAfUX3C7d-k7V4P2SMuFRABeNmwcTF0l9XsXgRLxYdY4csUEiKwSc=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/jfaGop0vFshDA0uZzMX0XfbAfUX3C7d-k7V4P2SMuFRABeNmwcTF0l9XsXgRLxYdY4csUEiKwSc=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "Settler of the Boards",
+                "description": "Unboxings, reviews, and shorts all about board games! Check out my website to read more. "
+              }
+            },
+            "statistics": {
+              "viewCount": "64217",
+              "subscriberCount": "288",
+              "hiddenSubscriberCount": false,
+              "videoCount": "663"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UCez3_cu7peTRAcb1ZJF4j5A": {
+    "ts": 1761329133645,
+    "value": {
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_lGF4AbwVZedKeNeAj205ylpaw94pMBF777zWfOq1JJvQ=s88-c-k-c0x00ffffff-no-rj",
+      "title": "Tabletop Bellhop",
+      "subscriberCount": 2120,
+      "hiddenSubscriberCount": false,
+      "viewCount": 267011,
+      "videoCount": 1189,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "04fCTzkqh0uxsJoTkx942hlGZPw",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "i2jxcylHs5I61v_dypiJLFyhcoM",
+            "id": "UCez3_cu7peTRAcb1ZJF4j5A",
+            "snippet": {
+              "title": "Tabletop Bellhop",
+              "description": "Welcome to The Tabletop Bellhop YouTube Channel. Let us be your Cardboard Concierge, working with you to make your game nights better!\n\nWe record live every Wednesday at 8:00PM Eastern on our twitch channel: \nhttps://www.twitch.tv/tabletopbellhop\n\nSend your gaming and game night questions to:\nquestions@tabletopbellhop.com or Hit \"Ask The Bellhop\" over at https://tabeltopbellhop.com\n\nIf you enjoy the show be sure to tip The Bellhop at:\nhttps://www.patreon.com/tabletopbellhop\n\nSign up for our newsletter: https://newsletter.tabletopbellhop.com\n\nFind us all over the web:\nDice.camp: https://dice.camp/@TabletopBellhop/\nFacebook: https://www.facebook.com/tabletopbellhop/\nTwitter: https://twitter.com/tabletopbellhop\nInstagram: https://www.instagram.com/tabletopbellhop/\nTwitch: https://twitch.tv/tabletopbellhop\nDiscord: https://discord.tabletopbellhop.com\n",
+              "customUrl": "@tabletopbellhop",
+              "publishedAt": "2018-07-21T14:27:36Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lGF4AbwVZedKeNeAj205ylpaw94pMBF777zWfOq1JJvQ=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lGF4AbwVZedKeNeAj205ylpaw94pMBF777zWfOq1JJvQ=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lGF4AbwVZedKeNeAj205ylpaw94pMBF777zWfOq1JJvQ=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "Tabletop Bellhop",
+                "description": "Welcome to The Tabletop Bellhop YouTube Channel. Let us be your Cardboard Concierge, working with you to make your game nights better!\n\nWe record live every Wednesday at 8:00PM Eastern on our twitch channel: \nhttps://www.twitch.tv/tabletopbellhop\n\nSend your gaming and game night questions to:\nquestions@tabletopbellhop.com or Hit \"Ask The Bellhop\" over at https://tabeltopbellhop.com\n\nIf you enjoy the show be sure to tip The Bellhop at:\nhttps://www.patreon.com/tabletopbellhop\n\nSign up for our newsletter: https://newsletter.tabletopbellhop.com\n\nFind us all over the web:\nDice.camp: https://dice.camp/@TabletopBellhop/\nFacebook: https://www.facebook.com/tabletopbellhop/\nTwitter: https://twitter.com/tabletopbellhop\nInstagram: https://www.instagram.com/tabletopbellhop/\nTwitch: https://twitch.tv/tabletopbellhop\nDiscord: https://discord.tabletopbellhop.com\n"
+              },
+              "country": "CA"
+            },
+            "statistics": {
+              "viewCount": "267011",
+              "subscriberCount": "2120",
+              "hiddenSubscriberCount": false,
+              "videoCount": "1189"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "UCgqyOLauu_d4oH_IROMfOJw": {
+    "ts": 1761329133709,
+    "value": {
+      "logo": "https://yt3.ggpht.com/ytc/AIdro_lIX5mSfqU097OMkRltgGOeexSRaSbasvjy6dQY7ZBXWPg=s88-c-k-c0x00ffffff-no-rj",
+      "title": "Rolling Dice & Taking Names",
+      "subscriberCount": 1940,
+      "hiddenSubscriberCount": false,
+      "viewCount": 178175,
+      "videoCount": 421,
+      "raw": {
+        "kind": "youtube#channelListResponse",
+        "etag": "1JXi09TP0bs-d2dliheKy98pFJs",
+        "pageInfo": {
+          "totalResults": 1,
+          "resultsPerPage": 5
+        },
+        "items": [
+          {
+            "kind": "youtube#channel",
+            "etag": "Iykfll2jmqiFnKSi5gQIur4e51k",
+            "id": "UCgqyOLauu_d4oH_IROMfOJw",
+            "snippet": {
+              "title": "Rolling Dice & Taking Names",
+              "description": "Rolling Dice & Taking Names is a show where two long time friends discuss the board game hobby including reviews, previews and interviews. The goal is to be entertaining while trying to be informative. Many discussions lead to squirrel moments where we end up discussing food, pop culture and even lawn equipment. \n\nThe main show is a bi-weekly podcast with occasional videos.",
+              "customUrl": "@rolldicetakenames",
+              "publishedAt": "2013-04-01T11:23:34Z",
+              "thumbnails": {
+                "default": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lIX5mSfqU097OMkRltgGOeexSRaSbasvjy6dQY7ZBXWPg=s88-c-k-c0x00ffffff-no-rj",
+                  "width": 88,
+                  "height": 88
+                },
+                "medium": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lIX5mSfqU097OMkRltgGOeexSRaSbasvjy6dQY7ZBXWPg=s240-c-k-c0x00ffffff-no-rj",
+                  "width": 240,
+                  "height": 240
+                },
+                "high": {
+                  "url": "https://yt3.ggpht.com/ytc/AIdro_lIX5mSfqU097OMkRltgGOeexSRaSbasvjy6dQY7ZBXWPg=s800-c-k-c0x00ffffff-no-rj",
+                  "width": 800,
+                  "height": 800
+                }
+              },
+              "localized": {
+                "title": "Rolling Dice & Taking Names",
+                "description": "Rolling Dice & Taking Names is a show where two long time friends discuss the board game hobby including reviews, previews and interviews. The goal is to be entertaining while trying to be informative. Many discussions lead to squirrel moments where we end up discussing food, pop culture and even lawn equipment. \n\nThe main show is a bi-weekly podcast with occasional videos."
+              },
+              "country": "US"
+            },
+            "statistics": {
+              "viewCount": "178175",
+              "subscriberCount": "1940",
+              "hiddenSubscriberCount": false,
+              "videoCount": "421"
             }
           }
         ]

@@ -49,6 +49,10 @@ describe('ContentGrid country canonicalization and paid content radios', () => {
 
     render(<ContentGrid items={items} />)
 
+  // Turn on Designer View to reveal Content Type radios
+  const designerSwitch = screen.getByRole('switch', { name: 'Designer view' })
+  fireEvent.click(designerSwitch)
+
   // Initially both are shown
   expect(screen.getByRole('heading', { level: 3, name: 'FreeChan' })).toBeInTheDocument()
   expect(screen.getByRole('heading', { level: 3, name: 'PaidChan' })).toBeInTheDocument()

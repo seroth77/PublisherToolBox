@@ -111,6 +111,7 @@ export default function ContentGrid({ items = [] }) {
   const [paidContentFilter, setPaidContentFilter] = useState('all')
   const [sortOption, setSortOption] = useState('nameAsc')
   const [subscriberMap, setSubscriberMap] = useState({}) // key: channelNameLower -> { count:number|null }
+  const [designerView, setDesignerView] = useState(false)
 
   // De-duplicate items by channel name (keep first occurrence)
   const deduplicatedItems = useMemo(() => {
@@ -194,6 +195,13 @@ export default function ContentGrid({ items = [] }) {
     })
   }, [deduplicatedItems, search, selectedPlatforms, selectedCountries, paidContentFilter])
 
+  // When designer view is turned off, reset content-type filter to default
+  useEffect(() => {
+    if (!designerView && paidContentFilter !== 'all') {
+      setPaidContentFilter('all')
+    }
+  }, [designerView, paidContentFilter])
+
   // Prefetch subscriber counts for YouTube channels to support subscriber sorting
   useEffect(() => {
     let cancelled = false
@@ -209,7 +217,7 @@ export default function ContentGrid({ items = [] }) {
         const link = String(it['What is the link to your channel(s)? (If you have multiple channels, add them all using commas to separate them.)'] || '').split(',')[0].trim()
         const platformsRaw = it['What platform is your channel on?'] || ''
         const isYouTube = link.toLowerCase().includes('youtube') || splitPlatforms(platformsRaw).some(p => canonicalKey(p) === 'youtube')
-        if (!isYouTube) continue
+  if (!isYouTube) continue
 
         tasks.push((async () => {
           try {
@@ -225,6 +233,20 @@ export default function ContentGrid({ items = [] }) {
               if (resolved) {
                 count = resolved.subscriberCount ?? null
                 hidden = resolved.hiddenSubscriberCount ?? false
+              }
+            } else if (!channelIdOrHandle && isYouTube) {
+              // Fallback: try resolving by channel name when platform indicates YouTube
+              const resolvedByName = await resolveHandleOrQuery(channelName)
+              if (resolvedByName) {
+                // After resolving by name, fetch full info by channelId to get statistics
+                const cid = resolvedByName.channelId || null
+                if (cid) {
+                  const info = await fetchChannelLogo(cid)
+                  if (info) {
+                    count = info.subscriberCount ?? null
+                    hidden = info.hiddenSubscriberCount ?? false
+                  }
+                }
               }
             } else if (channelIdOrHandle) {
               const info = await fetchChannelLogo(channelIdOrHandle)
@@ -293,10 +315,12 @@ export default function ContentGrid({ items = [] }) {
         selectedCountries={selectedCountries}
         paidContentFilter={paidContentFilter}
         sortOption={sortOption}
+        designerView={designerView}
         onPlatformToggle={togglePlatform}
         onCountryToggle={toggleCountry}
         onPaidContentChange={setPaidContentFilter}
         onSortChange={setSortOption}
+        onDesignerViewChange={setDesignerView}
         onClearFilters={clearFilters}
         totalResults={deduplicatedItems.length}
         filteredCount={sorted.length}
@@ -308,7 +332,7 @@ export default function ContentGrid({ items = [] }) {
           const channelName = it['What is the name of your channel?'] || it['What is your name?'] || ''
           const ts = it.Timestamp || ''
           const key = `${slugify(channelName)}-${slugify(ts)}-${idx}`
-          return <ContentCard key={key} data={it} />
+          return <ContentCard key={key} data={it} designerView={designerView} />
         })}
         {sorted.length === 0 && <div className="no-results">No creators match the selected filters.</div>}
       </div>

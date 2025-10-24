@@ -167,3 +167,61 @@
   background: #bdc3c7;
   cursor: not-allowed;
 }
+
+/* Toggle switch styles */
+.switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.switch input[type="checkbox"][role="switch"] {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.switch-slider {
+  position: relative;
+  width: 42px;
+  height: 24px;
+  background: #cbd5e0;
+  border-radius: 9999px;
+  transition: background 0.2s ease;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);
+}
+
+.switch-slider::after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 18px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  transition: transform 0.2s ease;
+}
+
+.switch input[type="checkbox"][role="switch"]:focus-visible + .switch-slider {
+  outline: 2px solid #3498db;
+  outline-offset: 2px;
+}
+
+.switch input[type="checkbox"][role="switch"]:checked + .switch-slider {
+  background: #2ecc71;
+}
+
+.switch input[type="checkbox"][role="switch"]:checked + .switch-slider::after {
+  transform: translateX(18px);
+}
+
+.switch-label {
+  font-size: 0.95rem;
+  color: #2c3e50;
+}
